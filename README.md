@@ -1,8 +1,11 @@
 # honeynet
 
 Honeynet of Ubuntu 14.04 LTS
+
 Zane Witherspoon
+
 Terrence Gareau
+
 2 June 2015
 
 According to the diagram, it takes at least 3 machines to build the honeynet: 
@@ -29,4 +32,7 @@ The honeyinstaller_v3.sh is the recommended script to set up the honeypot.
 Change the USERNAME and PASSWORD to the same credentials as before
 Change RABBIT-IP to the rabbitMQ internal IP
 
-#### 
+#### index template ####
+You can define custom mappings for the indexes created by logstash.
+Run index-template.sh on the elasticsearch/logstash server to set a custom mapping for the data parsed by logstash in all future auto-created indexes that start with logstash-*
+
