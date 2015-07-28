@@ -1,7 +1,7 @@
 ##to keep your queries from being split in auto-created indexes
 ##index template
 
-curl -XPUT localhost/_template/auto-template -d '
+curl -XPUT localhost:9200/_template/auto-template -d '
 {
     "template" : "logstash-*",
     "settings" : {
