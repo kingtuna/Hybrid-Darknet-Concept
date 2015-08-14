@@ -1,15 +1,15 @@
 ####################################################
 ####                                            ####
 #### Ubuntu 14.04LTS Honeypot Install Script    ####
-#### Updated for 14.04 by Zane Witherspoon      ####
+#### Updated for 14.04 by Zane Witherspoon &    ####
 #### tuna@people.ops-trust.net                  ####
 ####                                            ####
 ####################################################
 
 apt-get update
-apt-get -y install gcc build-essential bind9 dnsutils cmake make gcc g++ flex bison
+apt-get -y install gcc build-essential bind9 dnsutils cmake make gcc g++ flex bison gcc
 apt-get -y install libpcap-dev libgeoip-dev libssl-dev python-dev zlib1g-dev libmagic-dev 
-apt-get -y install hping3 vim ntp xinetd curl default-jre git rubygems swig2.0 
+apt-get -y install hping3 vim ntp xinetd curl default-jre git ruby swig3.0 swig2.0 ruby-dev
 mkdir build
 cd build
 
@@ -316,7 +316,7 @@ dW50cnlfY29kZTIiIF0KICAgIH0KICB9Cn0K' | base64 -d  > /etc/logstash/bro.conf
 
 printf 'output {
   rabbitmq {
-     user => "USERNAME"
+     user => "USER"
      exchange_type => "direct"
      password => "PASSWORD"
      exchange => "amq"
@@ -325,7 +325,7 @@ printf 'output {
      ssl => true
      port => 5671
      persistent => true
-     host => "honeynet.cloudapp.net"
+     host => "hose_ip"
   }
 }' >> /etc/logstash/bro.conf
 
