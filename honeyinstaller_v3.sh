@@ -319,7 +319,7 @@ printf 'output {
      user => "USER"
      exchange_type => "direct"
      password => "PASSWORD"
-     exchange => "amq"
+     exchange => "amq.direct"
      vhost => "/amp"
      durable => true
      ssl => true
