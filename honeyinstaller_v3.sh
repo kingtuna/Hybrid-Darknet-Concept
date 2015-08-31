@@ -43,6 +43,8 @@ killall ntpd
 /usr/local/bin/ntpd -u ntp:ntp -p /var/run/ntpd.pid -g
 killall sshpot
 service sshpot restart
+killall SSDP_Emulator
+/root/build/ssdp/SSDP_Emulator
 /usr/sbin/hping3 --rand-source -c 600 --udp -p 123 --fast -n 127.0.0.1 -d 48 -E /root/ntp.bin' > /root/killntp.sh 
 chmod +x /root/killntp.sh 
 
@@ -75,6 +77,14 @@ service chargen
 }' > /etc/xinetd.d/chargen 
 
 service xinetd restart
+
+###### Install SSDP Service Emulator ######
+cd /root/build/
+mkdir ssdp
+cd /root/build/ssdp/
+curl https://raw.githubusercontent.com/kingtuna/honeynet/master/emulators/SSDP_Emulator.c > SSDP_Emulator.c
+gcc SSDP_Emulator.c -o SSDP_Emulator
+/root/build/ssdp/SSDP_Emulator
 
 ###### Install Recursive DNS ######
 
@@ -364,6 +374,8 @@ export PATH=/nsm/bro/bin:$PATH
 sleep 2
 hping3 --rand-source -c 600 --udp -p 123 --fast -n 127.0.0.1 -d 48 -E /root/ntp.bin
 service logstash restart
+killall SSDP_Emulator
+/root/build/ssdp/SSDP_Emulator
 
 exit 0
 ' > /etc/rc.local 
