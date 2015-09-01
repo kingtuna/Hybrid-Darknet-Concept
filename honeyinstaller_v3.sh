@@ -44,7 +44,9 @@ killall ntpd
 killall sshpot
 service sshpot restart
 killall SSDP_Emulator
+killall sentinel_emulator
 /root/build/ssdp/SSDP_Emulator
+/root/build/sentinel/sentinel_emulator
 /usr/sbin/hping3 --rand-source -c 600 --udp -p 123 --fast -n 127.0.0.1 -d 48 -E /root/ntp.bin' > /root/killntp.sh 
 chmod +x /root/killntp.sh 
 
@@ -85,6 +87,14 @@ cd /root/build/ssdp/
 curl https://raw.githubusercontent.com/kingtuna/honeynet/master/emulators/SSDP_Emulator.c > SSDP_Emulator.c
 gcc SSDP_Emulator.c -o SSDP_Emulator
 /root/build/ssdp/SSDP_Emulator
+
+###### Install sentinel Service Emulator ######
+cd /root/build/
+mkdir sentinel
+cd /root/build/sentinel/
+curl https://raw.githubusercontent.com/kingtuna/honeynet/master/emulators/sentinel_emulator.c > sentinel_emulator.c
+gcc sentinel_emulator.c -o sentinel_emulator
+/root/build/sentinel/sentinel_emulator
 
 ###### Install Recursive DNS ######
 
@@ -374,8 +384,10 @@ export PATH=/nsm/bro/bin:$PATH
 sleep 2
 hping3 --rand-source -c 600 --udp -p 123 --fast -n 127.0.0.1 -d 48 -E /root/ntp.bin
 service logstash restart
+killall sentinel_emulator
 killall SSDP_Emulator
 /root/build/ssdp/SSDP_Emulator
+/root/build/sentinel/sentinel_emulator
 
 exit 0
 ' > /etc/rc.local 
