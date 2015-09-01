@@ -1,4 +1,4 @@
-/* Sentinel Amplification Emulator written by Achilleas Moustakis */
+/* Sentinel Amplification Emulator written by Achilleas Moustakis */ 
 
 #include <stdbool.h>
 #include <stdio.h>
