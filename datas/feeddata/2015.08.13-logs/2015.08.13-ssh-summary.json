@@ -1,0 +1,48 @@
+{
+    "Username-Password Combinations": {
+        "ftp": "ftpuser", 
+        "administrator": "admin", 
+        "ubnt": "ubnt", 
+        "ftpuser": "ftpuser", 
+        "guest": "guest", 
+        "kodi": "kodi", 
+        "admin": "admin", 
+        "support": "support", 
+        "vagrant": "vagrant", 
+        "vyatta": "vyatta", 
+        "user": "user", 
+        "tecmint": "tecmint", 
+        "test": "test", 
+        "pi": "raspberry", 
+        "root": "openelec", 
+        "ts3": "ts3srv", 
+        "xbmc": "xbmc"
+    }, 
+    "SSH BRUTEFORCERS": {
+        "69": "182.100.67.113", 
+        "9": "89.248.171.19", 
+        "11": "112.220.234.195", 
+        "12": "202.83.16.236", 
+        "13": "194.65.75.203", 
+        "14": "180.166.152.146", 
+        "15": "121.136.199.105", 
+        "48": "218.87.111.108", 
+        "436": "209.166.166.32"
+    }, 
+    "TOP USERNAMES": {
+        "3": "ftp", 
+        "646": "root", 
+        "7": "kodi", 
+        "9": "vyatta", 
+        "13": "ubnt", 
+        "18": "admin"
+    }, 
+    "TOP PASSWORDS": {
+        "101": "p4", 
+        "9": "p4ssw0rd", 
+        "11": "root", 
+        "12": "admin", 
+        "59": "p", 
+        "28": "55w0rd"
+    }
+}

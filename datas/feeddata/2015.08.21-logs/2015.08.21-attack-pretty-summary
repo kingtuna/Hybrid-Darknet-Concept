@@ -1,0 +1,1230 @@
+Daily Attack Feed
+2015.08.21
+Zane Witherspoon
+Terrence Gareau
+NexusGuard
+Ports, Queries, and Qtypes are formatted: {"term": count}
+
+
+ip: 60.228.170.133
+count: 180
+method: dns
+type: attack
+start time: 2015-08-21T16:26:10.826Z
+end time: 2015-08-21T16:26:32.848Z
+country: Australia
+region: New South Wales
+queries: {u'cpsc.gov': 180}
+qtype: {u'255': 180}
+source ports: {u'30976': 15, u'46247': 15, u'26338': 11, u'19924': 15, u'4880': 13, u'56861': 15, u'16668': 11, u'14082': 13, u'8466': 15, u'60013': 15}
+transaction id: 42531
+asn: 1221
+
+ip: 198.255.6.59
+count: 6369
+method: dns
+type: attack
+start time: 2015-08-21T16:06:41.339Z
+end time: 2015-08-21T16:30:04.023Z
+country: 
+region: 
+queries: {u'cpsc.gov': 6369}
+qtype: {u'255': 6369}
+source ports: {u'792': 5, u'64827': 5, u'9721': 8, u'55856': 5, u'48513': 5, u'62786': 5, u'60748': 5, u'9437': 8, u'54836': 5, u'47144': 5}
+transaction id: 31169
+asn: 174
+
+ip: 190.186.124.45
+count: 197
+method: dns
+type: attack
+start time: 2015-08-21T16:06:46.866Z
+end time: 2015-08-21T16:07:44.421Z
+country: Bolivia
+region: Santa Cruz
+queries: {u'cpsc.gov': 197}
+qtype: {u'255': 197}
+source ports: {u'4211': 13, u'34348': 15, u'33250': 13, u'29138': 13, u'34854': 13, u'29327': 13, u'3570': 15, u'8767': 14, u'59566': 15, u'29293': 13}
+transaction id: 54814
+asn: 25620
+
+ip: 62.212.82.51
+count: 1684
+method: dns
+type: attack
+start time: 2015-08-21T16:14:33.689Z
+end time: 2015-08-21T16:30:06.252Z
+country: Netherlands
+region: 
+queries: {u'cpsc.gov': 1684}
+qtype: {u'255': 1684}
+source ports: {u'54099': 8, u'8375': 5, u'60560': 8, u'46330': 8, u'54122': 8, u'54240': 8, u'63950': 8, u'48130': 8, u'41674': 8, u'34629': 8}
+transaction id: 12051
+asn: 60781
+
+ip: 14.29.50.37
+count: 6511
+method: dns
+type: attack
+start time: 2015-08-21T16:06:38.469Z
+end time: 2015-08-21T16:30:06.375Z
+country: China
+region: Guangdong
+queries: {u'cpsc.gov': 6511}
+qtype: {u'-': 2, u'255': 6509}
+source ports: {u'8107': 5, u'6550': 5, u'64391': 8, u'9178': 5, u'9891': 8, u'56391': 15, u'64253': 5, u'7968': 8, u'8527': 9, u'9820': 8}
+transaction id: 37548
+asn: 58543
+
+ip: 222.186.30.126
+count: 2667
+method: dns
+type: attack
+start time: 2015-08-21T16:06:47.703Z
+end time: 2015-08-21T16:29:51.498Z
+country: China
+region: Jiangsu
+queries: {u'cpsc.gov': 2667}
+qtype: {u'255': 2667}
+source ports: {u'60712': 8, u'8608': 8, u'64288': 8, u'8860': 5, u'7220': 8, u'5229': 8, u'50809': 30, u'5794': 8, u'7285': 5, u'47380': 8}
+transaction id: 18726
+asn: 23650
+
+ip: 192.184.63.203
+count: 2560
+method: dns
+type: attack
+start time: 2015-08-21T16:07:00.410Z
+end time: 2015-08-21T16:30:01.092Z
+country: 
+region: 
+queries: {u'cpsc.gov': 2560}
+qtype: {u'-': 4, u'255': 2556}
+source ports: {u'6495': 8, u'880': 8, u'60425': 8, u'8774': 8, u'56293': 8, u'9884': 8, u'5850': 8, u'52671': 8, u'59764': 8, u'64623': 8}
+transaction id: 6011
+asn: 40676
+
+ip: 182.18.25.24
+count: 1920
+method: dns
+type: attack
+start time: 2015-08-21T16:12:52.302Z
+end time: 2015-08-21T16:29:59.748Z
+country: China
+region: Beijing
+queries: {u'cpsc.gov': 1920}
+qtype: {u'255': 1920}
+source ports: {u'42285': 8, u'59077': 8, u'3417': 5, u'7742': 8, u'40844': 8, u'52246': 8, u'61960': 8, u'43347': 8, u'31770': 9, u'52956': 8}
+transaction id: 30085
+asn: 4808
+
+ip: 134.29.152.36
+count: 3583
+method: dns
+type: attack
+start time: 2015-08-21T16:06:41.982Z
+end time: 2015-08-21T16:30:05.685Z
+country: United States
+region: Minnesota
+queries: {u'isc.org': 1022, u'cpsc.gov': 2561}
+qtype: {u'255': 3583}
+source ports: {u'62924': 8, u'62072': 8, u'62155': 8, u'7222': 8, u'9657': 8, u'57387': 8, u'63394': 13, u'53936': 5, u'60079': 12, u'57150': 9}
+transaction id: 27815
+asn: 1998
+
+ip: 178.148.190.123
+count: 3372
+method: dns
+type: attack
+start time: 2015-08-21T16:06:52.956Z
+end time: 2015-08-21T16:29:24.444Z
+country: Serbia
+region: 
+queries: {u'cpsc.gov': 3372}
+qtype: {u'255': 3372}
+source ports: {u'62324': 8, u'8041': 8, u'63096': 5, u'9720': 5, u'61363': 5, u'8429': 5, u'323': 5, u'45538': 5, u'25036': 5, u'36525': 5}
+transaction id: 60179
+asn: 31042
+
+ip: 101.184.129.113
+count: 630
+method: dns
+type: attack
+start time: 2015-08-21T16:14:15.887Z
+end time: 2015-08-21T16:19:55.079Z
+country: Australia
+region: 
+queries: {u'cpsc.gov': 630}
+qtype: {u'255': 630}
+source ports: {u'44867': 8, u'54195': 9, u'49696': 11, u'64471': 10, u'8620': 11, u'58958': 11, u'53751': 10, u'62830': 10, u'28770': 8, u'35941': 8}
+transaction id: 988
+asn: 1221
+
+ip: 64.40.12.66
+count: 1133
+method: dns
+type: attack
+start time: 2015-08-21T16:06:46.534Z
+end time: 2015-08-21T16:13:49.080Z
+country: United States
+region: New York
+queries: {u'cpsc.gov': 1133}
+qtype: {u'255': 1133}
+source ports: {u'50578': 8, u'63327': 7, u'65285': 10, u'64634': 7, u'25172': 8, u'30866': 8, u'54143': 8, u'64927': 9, u'9432': 11, u'64861': 6}
+transaction id: 8295
+asn: 18505
+
+ip: 62.221.204.83
+count: 2060
+method: dns
+type: attack
+start time: 2015-08-21T16:06:42.776Z
+end time: 2015-08-21T16:29:26.974Z
+country: Netherlands
+region: 
+queries: {u'cpsc.gov': 2060}
+qtype: {u'255': 2060}
+source ports: {u'9698': 5, u'65159': 8, u'57320': 8, u'57114': 8, u'54225': 8, u'51927': 8, u'56073': 8, u'52861': 8, u'56808': 8, u'63384': 8}
+transaction id: 30533
+asn: 24587
+
+ip: 84.15.183.252
+count: 2419
+method: dns
+type: attack
+start time: 2015-08-21T16:06:54.157Z
+end time: 2015-08-21T16:23:01.162Z
+country: Lithuania
+region: 
+queries: {u'cpsc.gov': 2419}
+qtype: {u'255': 2419}
+source ports: {u'7931': 8, u'61466': 5, u'4052': 5, u'24528': 5, u'7970': 8, u'9510': 5, u'63378': 8, u'4911': 8, u'64920': 8, u'9518': 5}
+transaction id: 56215
+asn: 13194
+
+ip: 124.186.235.8
+count: 493
+method: dns
+type: attack
+start time: 2015-08-21T16:15:05.889Z
+end time: 2015-08-21T16:21:44.262Z
+country: Australia
+region: Queensland
+queries: {u'cpsc.gov': 493}
+qtype: {u'-': 13, u'255': 480}
+source ports: {u'8360': 9, u'65318': 10, u'57930': 11, u'3863': 8, u'57559': 11, u'46475': 8, u'49975': 11, u'8492': 11, u'58069': 11, u'62673': 10}
+transaction id: 19251
+asn: 1221
+
+ip: 84.13.47.13
+count: 72
+method: dns
+type: attack
+start time: 2015-08-21T16:06:55.926Z
+end time: 2015-08-21T16:07:24.730Z
+country: United Kingdom
+region: Barking and Dagenham
+queries: {u'cpsc.gov': 72}
+qtype: {u'255': 72}
+source ports: {u'38558': 15, u'38930': 12, u'53389': 15, u'45748': 15, u'41645': 15}
+transaction id: 6871
+asn: 13285
+
+ip: 190.186.50.25
+count: 1934
+method: dns
+type: attack
+start time: 2015-08-21T16:12:55.459Z
+end time: 2015-08-21T16:29:58.476Z
+country: Bolivia
+region: El Beni
+queries: {u'cpsc.gov': 1934}
+qtype: {u'255': 1934}
+source ports: {u'65454': 9, u'61710': 8, u'59054': 8, u'608': 9, u'6413': 9, u'61032': 8, u'6864': 8, u'7947': 8, u'56297': 9, u'8840': 8}
+transaction id: 9750
+asn: 25620
+
+ip: 119.167.246.216
+count: 115
+method: dns
+type: attack
+start time: 2015-08-21T16:14:05.044Z
+end time: 2015-08-21T16:14:14.045Z
+country: China
+region: Shandong
+queries: {u'cpsc.gov': 115}
+qtype: {u'255': 115}
+source ports: {u'55071': 15, u'64838': 15, u'13898': 15, u'49820': 15, u'39325': 15, u'35796': 3, u'38433': 15, u'28742': 7, u'39032': 15}
+transaction id: 35275
+asn: 4837
+
+ip: 189.1.169.61
+count: 3944
+method: dns
+type: attack
+start time: 2015-08-21T16:06:39.162Z
+end time: 2015-08-21T16:21:28.291Z
+country: Brazil
+region: 
+queries: {u'cpsc.gov': 3944}
+qtype: {u'255': 3944}
+source ports: {u'47523': 5, u'49997': 26, u'4916': 5, u'59877': 5, u'47181': 5, u'4836': 5, u'2792': 26, u'55860': 30, u'95': 5, u'58366': 5}
+transaction id: 39133
+asn: 28666
+
+ip: 101.185.27.143
+count: 649
+method: dns
+type: attack
+start time: 2015-08-21T16:06:44.741Z
+end time: 2015-08-21T16:09:59.620Z
+country: Australia
+region: 
+queries: {u'cpsc.gov': 649}
+qtype: {u'255': 649}
+source ports: {u'61552': 12, u'61661': 15, u'63187': 13, u'56142': 10, u'33736': 8, u'7377': 13, u'6771': 13, u'61526': 7, u'9571': 15, u'57174': 7}
+transaction id: 39096
+asn: 1221
+
+ip: 198.107.130.135
+count: 162
+method: dns
+type: attack
+start time: 2015-08-21T16:11:54.607Z
+end time: 2015-08-21T16:12:09.567Z
+country: United States
+region: Colorado
+queries: {u'cpsc.gov': 162}
+qtype: {u'255': 162}
+source ports: {u'12984': 13, u'49206': 14, u'33048': 13, u'40549': 15, u'35860': 13, u'49006': 15, u'57509': 15, u'53632': 15, u'6739': 15, u'1404': 15}
+transaction id: 9750
+asn: 131902
+
+ip: 108.61.227.100
+count: 270
+method: dns
+type: attack
+start time: 2015-08-21T16:06:37.883Z
+end time: 2015-08-21T16:07:06.296Z
+country: United States
+region: New Jersey
+queries: {u'cpsc.gov': 270}
+qtype: {u'255': 270}
+source ports: {u'8189': 13, u'6421': 15, u'47475': 15, u'46472': 13, u'54999': 13, u'54259': 13, u'60672': 13, u'41891': 15, u'61228': 11, u'50231': 15}
+transaction id: 42603
+asn: 20473
+
+ip: 104.152.191.90
+count: 2995
+method: dns
+type: attack
+start time: 2015-08-21T16:06:52.167Z
+end time: 2015-08-21T16:26:18.005Z
+country: 
+region: 
+queries: {u'cpsc.gov': 2995}
+qtype: {u'255': 2995}
+source ports: {u'59885': 5, u'56966': 8, u'838': 8, u'60665': 9, u'6112': 8, u'62367': 5, u'7946': 8, u'58370': 8, u'52170': 8, u'65429': 8}
+transaction id: 40022
+asn: 31863
+
+ip: 77.169.2.212
+count: 1095
+method: dns
+type: attack
+start time: 2015-08-21T16:08:36.586Z
+end time: 2015-08-21T16:13:05.904Z
+country: Netherlands
+region: Noord-Holland
+queries: {u'cpsc.gov': 1095}
+qtype: {u'255': 1095}
+source ports: {u'36224': 5, u'8214': 10, u'40735': 5, u'6932': 7, u'9687': 12, u'9436': 10, u'7122': 6, u'9705': 12, u'43994': 8, u'47902': 5}
+transaction id: 33409
+asn: 1136
+
+ip: 62.210.91.79
+count: 2868
+method: dns
+type: attack
+start time: 2015-08-21T16:09:12.066Z
+end time: 2015-08-21T16:29:07.395Z
+country: France
+region: 
+queries: {u'cpsc.gov': 2868}
+qtype: {u'255': 2868}
+source ports: {u'7173': 5, u'8946': 8, u'58975': 8, u'58911': 8, u'53204': 5, u'58779': 8, u'52104': 5, u'8478': 8, u'7788': 8, u'6170': 8}
+transaction id: 52346
+asn: 12876
+
+ip: 139.216.170.1
+count: 142
+method: dns
+type: attack
+start time: 2015-08-21T16:14:23.392Z
+end time: 2015-08-21T16:14:35.671Z
+country: Australia
+region: 
+queries: {u'cpsc.gov': 142}
+qtype: {u'-': 3, u'255': 139}
+source ports: {u'15709': 15, u'15022': 7, u'7444': 15, u'64775': 15, u'38400': 15, u'19347': 15, u'55386': 9, u'34812': 10, u'38300': 15, u'59651': 15}
+transaction id: 36481
+asn: 38285
+
+ip: 190.186.224.149
+count: 95
+method: dns
+type: attack
+start time: 2015-08-21T16:06:46.106Z
+end time: 2015-08-21T16:07:08.018Z
+country: Bolivia
+region: El Beni
+queries: {u'cpsc.gov': 95}
+qtype: {u'255': 95}
+source ports: {u'39144': 5, u'6132': 15, u'59625': 15, u'15228': 15, u'58904': 15, u'4938': 15, u'60940': 15}
+transaction id: 17013
+asn: 25620
+
+ip: 173.176.6.41
+count: 63
+method: dns
+type: attack
+start time: 2015-08-21T16:22:20.424Z
+end time: 2015-08-21T16:23:55.503Z
+country: Canada
+region: Quebec
+queries: {u'isc.org': 63}
+qtype: {u'255': 63}
+source ports: {u'59740': 3, u'42195': 3, u'28784': 3, u'59952': 2, u'4400': 6, u'61572': 6, u'44427': 5, u'35614': 3, u'5999': 6, u'7134': 2}
+transaction id: 62865
+asn: 5769
+
+ip: 85.25.218.216
+count: 63
+method: dns
+type: attack
+start time: 2015-08-21T00:00:12.132Z
+end time: 2015-08-21T00:24:43.078Z
+country: Germany
+region: 
+queries: {u'-': 63}
+qtype: {u'-': 63}
+source ports: {u'5820': 1, u'33548': 2, u'59903': 1, u'6809': 1, u'65492': 1, u'56424': 1, u'63314': 1, u'65499': 1, u'64616': 1, u'58149': 1}
+transaction id: 21678
+asn: 8972
+
+ip: 159.87.239.86
+count: 6280
+method: dns
+type: attack
+start time: 2015-08-21T16:06:38.982Z
+end time: 2015-08-21T16:30:04.188Z
+country: United States
+region: Arizona
+queries: {u'cpsc.gov': 6280}
+qtype: {u'255': 6280}
+source ports: {u'591': 5, u'55525': 5, u'62283': 5, u'5408': 5, u'6877': 8, u'53240': 5, u'61725': 13, u'48746': 25, u'64918': 8, u'60399': 5}
+transaction id: 54622
+asn: 30449
+
+ip: 192.99.181.81
+count: 1538
+method: dns
+type: attack
+start time: 2015-08-21T16:06:50.385Z
+end time: 2015-08-21T16:17:12.859Z
+country: 
+region: 
+queries: {u'cpsc.gov': 1538}
+qtype: {u'255': 1538}
+source ports: {u'56186': 8, u'63835': 8, u'40062': 8, u'50716': 8, u'40918': 8, u'59590': 5, u'27828': 8, u'60366': 5, u'63887': 8, u'60975': 5}
+transaction id: 53799
+asn: 16276
+
+ip: 86.136.23.238
+count: 36
+method: dns
+type: attack
+start time: 2015-08-21T16:29:44.171Z
+end time: 2015-08-21T16:29:56.555Z
+country: United Kingdom
+region: Warwickshire
+queries: {u'cpsc.gov': 36}
+qtype: {u'-': 5, u'255': 31}
+source ports: {u'20780': 15, u'32341': 6, u'37686': 15}
+transaction id: 28141
+asn: 2856
+
+ip: 85.206.22.52
+count: 2380
+method: dns
+type: attack
+start time: 2015-08-21T16:06:45.313Z
+end time: 2015-08-21T16:23:16.477Z
+country: Lithuania
+region: Vilniaus Apskritis
+queries: {u'cpsc.gov': 2380}
+qtype: {u'-': 11, u'255': 2369}
+source ports: {u'63284': 8, u'59891': 5, u'60899': 8, u'52901': 8, u'63196': 5, u'55835': 8, u'8485': 5, u'45265': 30, u'59417': 8, u'57722': 5}
+transaction id: 2815
+asn: 8764
+
+ip: 173.209.63.203
+count: 2239
+method: dns
+type: attack
+start time: 2015-08-21T16:14:11.826Z
+end time: 2015-08-21T16:29:33.046Z
+country: Canada
+region: 
+queries: {u'cpsc.gov': 2239}
+qtype: {u'255': 2239}
+source ports: {u'46413': 8, u'7416': 8, u'58488': 8, u'63845': 8, u'55801': 8, u'62579': 8, u'62552': 8, u'56242': 8, u'50252': 8, u'53090': 8}
+transaction id: 6686
+asn: 36666
+
+ip: 198.50.133.103
+count: 2177
+method: dns
+type: attack
+start time: 2015-08-21T16:07:05.270Z
+end time: 2015-08-21T16:21:49.662Z
+country: 
+region: 
+queries: {u'cpsc.gov': 2177}
+qtype: {u'255': 2177}
+source ports: {u'9616': 8, u'5818': 8, u'58730': 8, u'52113': 8, u'60069': 8, u'7651': 8, u'47577': 8, u'9176': 8, u'48961': 5, u'38355': 30}
+transaction id: 4693
+asn: 16276
+
+ip: 176.199.118.9
+count: 1221
+method: dns
+type: attack
+start time: 2015-08-21T16:11:56.128Z
+end time: 2015-08-21T16:29:30.920Z
+country: Germany
+region: Nordrhein-Westfalen
+queries: {u'cpsc.gov': 1221}
+qtype: {u'255': 1221}
+source ports: {u'39746': 8, u'7574': 8, u'17108': 8, u'4291': 5, u'45327': 8, u'40002': 5, u'40099': 8, u'36079': 8, u'6888': 4, u'38487': 8}
+transaction id: 31367
+asn: 6830
+
+ip: 99.62.49.98
+count: 37
+method: dns
+type: attack
+start time: 2015-08-21T16:24:24.688Z
+end time: 2015-08-21T16:25:03.533Z
+country: United States
+region: Texas
+queries: {u'isc.org': 37}
+qtype: {u'255': 37}
+source ports: {u'6545': 6, u'21172': 1, u'61493': 4, u'16808': 6, u'50624': 3, u'34441': 4, u'6383': 4, u'21807': 1, u'4541': 6, u'504': 2}
+transaction id: 27255
+asn: 7018
+
+ip: 112.90.252.116
+count: 6583
+method: dns
+type: attack
+start time: 2015-08-21T16:06:03.443Z
+end time: 2015-08-21T16:30:04.483Z
+country: China
+region: Guangdong
+queries: {u'cpsc.gov': 6583}
+qtype: {u'255': 6583}
+source ports: {u'15631': 10, u'5622': 5, u'58290': 5, u'7766': 8, u'9183': 8, u'7230': 8, u'62965': 5, u'8532': 8, u'60940': 5, u'20772': 25}
+transaction id: 3598
+asn: 17816
+
+ip: 112.84.185.241
+count: 174
+method: dns
+type: attack
+start time: 2015-08-21T16:11:18.443Z
+end time: 2015-08-21T16:13:09.126Z
+country: China
+region: Jiangsu
+queries: {u'cpsc.gov': 174}
+qtype: {u'255': 174}
+source ports: {u'3544': 13, u'159': 13, u'56480': 15, u'52863': 15, u'52247': 13, u'40689': 15, u'2005': 15, u'49389': 15, u'9434': 15, u'11934': 13}
+transaction id: 871
+asn: 4837
+
+ip: 14.152.83.75
+count: 23141
+method: dns
+type: attack
+start time: 2015-08-21T16:13:23.839Z
+end time: 2015-08-21T16:30:06.309Z
+country: China
+region: Guangdong
+queries: {u'isc.org': 18661, u'cpsc.gov': 4480}
+qtype: {u'-': 6, u'255': 23135}
+source ports: {u'42390': 25, u'5198': 26, u'44793': 25, u'62231': 23, u'62436': 30, u'42901': 30, u'23381': 25, u'44080': 24, u'20237': 20, u'26236': 21}
+transaction id: 43417
+asn: 58543
+
+ip: 43.252.161.188
+count: 1179
+method: dns
+type: attack
+start time: 2015-08-21T16:06:41.677Z
+end time: 2015-08-21T16:17:39.989Z
+country: Japan
+region: 
+queries: {u'cpsc.gov': 1179}
+qtype: {u'255': 1179}
+source ports: {u'9291': 6, u'7561': 8, u'9129': 7, u'4401': 8, u'5154': 8, u'3967': 8, u'9178': 7, u'47259': 8, u'26249': 8, u'54927': 8}
+transaction id: 48963
+asn: 59371
+
+ip: 98.30.89.39
+count: 10
+method: dns
+type: scan
+start time: 2015-08-21T16:17:23.718Z
+end time: 2015-08-21T16:17:43.311Z
+country: United States
+region: Ohio
+queries: {u'isc.org': 10}
+qtype: {u'255': 10}
+source ports: {u'26959': 3, u'20665': 6, u'4746': 1}
+transaction id: 4621
+asn: 10796
+
+ip: 119.81.143.128
+count: 6276
+method: dns
+type: attack
+start time: 2015-08-21T16:06:44.555Z
+end time: 2015-08-21T16:30:05.682Z
+country: Singapore
+region: 
+queries: {u'cpsc.gov': 6276}
+qtype: {u'255': 6276}
+source ports: {u'57935': 5, u'55060': 5, u'893': 8, u'47222': 5, u'772': 17, u'6540': 5, u'38285': 30, u'55219': 5, u'54279': 5, u'37439': 30}
+transaction id: 56196
+asn: 36351
+
+ip: 77.68.246.107
+count: 165
+method: dns
+type: attack
+start time: 2015-08-21T16:06:48.879Z
+end time: 2015-08-21T16:07:03.350Z
+country: Denmark
+region: 
+queries: {u'cpsc.gov': 165}
+qtype: {u'255': 165}
+source ports: {u'64007': 15, u'21766': 15, u'6594': 15, u'9472': 15, u'2448': 13, u'52975': 13, u'36574': 15, u'52157': 15, u'30366': 15, u'2943': 13}
+transaction id: 23007
+asn: 42355
+
+ip: 77.238.15.87
+count: 771
+method: dns
+type: attack
+start time: 2015-08-21T16:06:43.346Z
+end time: 2015-08-21T16:10:43.203Z
+country: Italy
+region: 
+queries: {u'cpsc.gov': 771}
+qtype: {u'255': 771}
+source ports: {u'7714': 12, u'62649': 8, u'58364': 7, u'7919': 12, u'51640': 8, u'61521': 10, u'62598': 6, u'8416': 15, u'46782': 5, u'58333': 7}
+transaction id: 61263
+asn: 20746
+
+ip: 101.183.110.147
+count: 152
+method: dns
+type: attack
+start time: 2015-08-21T16:09:13.726Z
+end time: 2015-08-21T16:09:24.757Z
+country: Australia
+region: 
+queries: {u'cpsc.gov': 152}
+qtype: {u'255': 152}
+source ports: {u'17041': 15, u'11288': 13, u'1186': 15, u'7630': 15, u'13034': 15, u'48870': 15, u'23983': 15, u'9550': 15, u'28496': 15, u'698': 15}
+transaction id: 27158
+asn: 1221
+
+ip: 106.75.198.241
+count: 2941
+method: dns
+type: attack
+start time: 2015-08-21T16:08:33.772Z
+end time: 2015-08-21T16:28:23.448Z
+country: China
+region: Shandong
+queries: {u'cpsc.gov': 2941}
+qtype: {u'255': 2941}
+source ports: {u'50732': 5, u'42235': 5, u'56958': 5, u'5350': 5, u'35926': 5, u'64409': 8, u'6191': 5, u'8135': 8, u'6022': 5, u'8321': 8}
+transaction id: 26177
+asn: 59077
+
+ip: 107.167.5.37
+count: 225
+method: dns
+type: attack
+start time: 2015-08-21T16:29:53.204Z
+end time: 2015-08-21T16:30:03.637Z
+country: 
+region: 
+queries: {u'cpsc.gov': 225}
+qtype: {u'255': 225}
+source ports: {u'29897': 12, u'59536': 13, u'39143': 13, u'9294': 15, u'45963': 13, u'22981': 13, u'36570': 13, u'63487': 15, u'56607': 11, u'37796': 13}
+transaction id: 40923
+asn: 46844
+
+ip: 94.23.25.66
+count: 1647
+method: dns
+type: attack
+start time: 2015-08-21T16:06:40.887Z
+end time: 2015-08-21T16:18:38.584Z
+country: France
+region: 
+queries: {u'cpsc.gov': 1647}
+qtype: {u'255': 1647}
+source ports: {u'63173': 8, u'50300': 8, u'998': 9, u'61584': 5, u'6113': 5, u'57002': 5, u'41224': 8, u'7958': 5, u'6872': 8, u'9044': 8}
+transaction id: 44962
+asn: 16276
+
+ip: 217.83.225.11
+count: 73
+method: dns
+type: attack
+start time: 2015-08-21T16:07:06.958Z
+end time: 2015-08-21T16:19:54.734Z
+country: Germany
+region: Nordrhein-Westfalen
+queries: {u'isc.org': 73}
+qtype: {u'255': 73}
+source ports: {u'43506': 3, u'61587': 4, u'26741': 5, u'36562': 5, u'49650': 5, u'15963': 4, u'25691': 3, u'58265': 5, u'57990': 3, u'42965': 5}
+transaction id: 3237
+asn: 3320
+
+ip: 222.80.173.85
+count: 901
+method: dns
+type: attack
+start time: 2015-08-21T16:21:49.521Z
+end time: 2015-08-21T16:27:17.192Z
+country: China
+region: Xinjiang
+queries: {u'cpsc.gov': 901}
+qtype: {u'255': 901}
+source ports: {u'57728': 8, u'44911': 8, u'52438': 8, u'63146': 8, u'6464': 7, u'63371': 4, u'52815': 8, u'51686': 8, u'8338': 11, u'38723': 8}
+transaction id: 52870
+asn: 4134
+
+ip: 47.88.1.138
+count: 4082
+method: dns
+type: attack
+start time: 2015-08-21T00:00:12.116Z
+end time: 2015-08-21T00:25:28.138Z
+country: Canada
+region: Ontario
+queries: {u'ms08067.com': 4082}
+qtype: {u'1': 4082}
+source ports: {u'53623': 4082}
+transaction id: 41792
+asn: 45102
+
+ip: 119.127.231.140
+count: 156
+method: dns
+type: attack
+start time: 2015-08-21T16:15:58.647Z
+end time: 2015-08-21T16:16:09.584Z
+country: China
+region: Guangdong
+queries: {u'cpsc.gov': 156}
+qtype: {u'255': 156}
+source ports: {u'17430': 13, u'1540': 13, u'39201': 15, u'35341': 15, u'59585': 15, u'55789': 9, u'39132': 15, u'42612': 15, u'9320': 15, u'48912': 13}
+transaction id: 10041
+asn: 4134
+
+ip: 23.234.40.180
+count: 6327
+method: dns
+type: attack
+start time: 2015-08-21T16:07:01.191Z
+end time: 2015-08-21T16:30:06.129Z
+country: 
+region: 
+queries: {u'cpsc.gov': 6327}
+qtype: {u'255': 6327}
+source ports: {u'7319': 8, u'12756': 30, u'54436': 5, u'55961': 5, u'7520': 8, u'39114': 30, u'9550': 8, u'64728': 5, u'65508': 5, u'9325': 8}
+transaction id: 24858
+asn: 62466
+
+ip: 14.29.49.245
+count: 3769
+method: dns
+type: attack
+start time: 2015-08-21T16:06:44.243Z
+end time: 2015-08-21T16:29:53.200Z
+country: China
+region: Guangdong
+queries: {u'cpsc.gov': 3769}
+qtype: {u'-': 1, u'255': 3768}
+source ports: {u'51047': 8, u'60844': 8, u'848': 8, u'58930': 8, u'65198': 8, u'655': 9, u'63487': 9, u'64319': 8, u'62086': 8, u'51568': 9}
+transaction id: 23007
+asn: 58543
+
+ip: 1.199.154.11
+count: 438
+method: dns
+type: attack
+start time: 2015-08-21T16:19:18.446Z
+end time: 2015-08-21T16:30:02.134Z
+country: China
+region: Henan
+queries: {u'isc.org': 438}
+qtype: {u'255': 438}
+source ports: {u'20958': 4, u'64836': 5, u'947': 2, u'9619': 2, u'38635': 4, u'33451': 4, u'34307': 4, u'9198': 2, u'9937': 3, u'7726': 2}
+transaction id: 35753
+asn: 17785
+
+ip: 95.211.176.130
+count: 1641
+method: dns
+type: attack
+start time: 2015-08-21T16:13:12.252Z
+end time: 2015-08-21T16:23:06.887Z
+country: Netherlands
+region: 
+queries: {u'cpsc.gov': 1641}
+qtype: {u'255': 1641}
+source ports: {u'6236': 8, u'64828': 8, u'5023': 8, u'40705': 8, u'20163': 8, u'9821': 5, u'54232': 8, u'55407': 8, u'59996': 8, u'57868': 8}
+transaction id: 57580
+asn: 60781
+
+ip: 178.162.194.30
+count: 1679
+method: dns
+type: attack
+start time: 2015-08-21T16:14:39.949Z
+end time: 2015-08-21T16:30:02.116Z
+country: Germany
+region: 
+queries: {u'cpsc.gov': 1679}
+qtype: {u'255': 1679}
+source ports: {u'59221': 8, u'30893': 9, u'5623': 8, u'60279': 8, u'48220': 8, u'53531': 8, u'62870': 8, u'50838': 8, u'7915': 8, u'44060': 8}
+transaction id: 25893
+asn: 16265
+
+ip: 197.2.35.224
+count: 162
+method: dns
+type: attack
+start time: 2015-08-21T00:07:32.645Z
+end time: 2015-08-21T00:08:40.753Z
+country: Tunisia
+region: 
+queries: {u'isc.org': 162}
+qtype: {u'255': 162}
+source ports: {u'25345': 162}
+transaction id: 10809
+asn: 37705
+
+ip: 211.155.225.29
+count: 1720
+method: dns
+type: attack
+start time: 2015-08-21T16:14:51.501Z
+end time: 2015-08-21T16:29:59.612Z
+country: China
+region: Beijing
+queries: {u'cpsc.gov': 1720}
+qtype: {u'255': 1720}
+source ports: {u'61554': 8, u'54664': 8, u'48639': 8, u'9797': 8, u'54525': 8, u'64686': 8, u'54000': 8, u'53589': 8, u'51144': 8, u'62561': 8}
+transaction id: 28039
+asn: 4134
+
+ip: 41.226.224.203
+count: 157
+method: dns
+type: attack
+start time: 2015-08-21T00:08:56.783Z
+end time: 2015-08-21T00:09:54.910Z
+country: Tunisia
+region: 
+queries: {u'isc.org': 157}
+qtype: {u'255': 157}
+source ports: {u'25345': 157}
+transaction id: 10809
+asn: 37705
+
+ip: 192.99.158.213
+count: 176
+method: dns
+type: attack
+start time: 2015-08-21T16:08:04.471Z
+end time: 2015-08-21T16:08:13.292Z
+country: 
+region: 
+queries: {u'cpsc.gov': 176}
+qtype: {u'255': 176}
+source ports: {u'56974': 15, u'21302': 15, u'62399': 15, u'57808': 13, u'4240': 15, u'47269': 15, u'18754': 15, u'50943': 13, u'52949': 15, u'42741': 13}
+transaction id: 45483
+asn: 16276
+
+ip: 199.168.142.169
+count: 1
+method: dns
+type: scan
+start time: 2015-08-21T00:17:55.656Z
+end time: 2015-08-21T00:17:55.656Z
+country: United States
+region: Pennsylvania
+queries: {u'cpsc.gov': 1}
+qtype: {u'255': 1}
+source ports: {u'44060': 1}
+transaction id: 39017
+asn: 46664
+
+ip: 71.6.186.95
+count: 4
+method: dns
+type: scan
+start time: 2015-08-21T16:06:58.033Z
+end time: 2015-08-21T16:15:14.512Z
+country: United States
+region: California
+queries: {u'235.54.236.23.bc.googleusercontent.com': 1, u'35.247.126.209.in-addr.arpa': 2, u'235.54.236.23.in-addr.arpa': 1}
+qtype: {u'1': 1, u'12': 3}
+source ports: {u'45186': 1, u'54194': 1, u'36735': 1, u'42008': 1}
+transaction id: 18496
+asn: 10439
+
+ip: 58.106.17.231
+count: 532
+method: dns
+type: attack
+start time: 2015-08-21T16:10:14.558Z
+end time: 2015-08-21T16:12:24.590Z
+country: Australia
+region: Queensland
+queries: {u'cpsc.gov': 532}
+qtype: {u'255': 532}
+source ports: {u'58548': 7, u'7245': 13, u'60339': 15, u'8773': 15, u'57961': 9, u'58880': 13, u'8577': 15, u'53645': 7, u'8341': 15, u'9705': 11}
+transaction id: 17699
+asn: 4804
+
+ip: 142.255.123.232
+count: 1516
+method: dns
+type: attack
+start time: 2015-08-21T16:06:53.322Z
+end time: 2015-08-21T16:30:06.181Z
+country: United States
+region: New York
+queries: {u'cpsc.gov': 1516}
+qtype: {u'255': 1516}
+source ports: {u'64792': 8, u'58355': 8, u'64805': 8, u'56296': 5, u'65107': 8, u'53139': 5, u'60687': 8, u'7793': 5, u'8262': 8, u'6328': 8}
+transaction id: 53268
+asn: 12271
+
+ip: 72.46.150.90
+count: 2588
+method: dns
+type: attack
+start time: 2015-08-21T16:06:36.173Z
+end time: 2015-08-21T16:30:01.932Z
+country: United States
+region: Nevada
+queries: {u'cpsc.gov': 2588}
+qtype: {u'255': 2588}
+source ports: {u'39579': 8, u'7340': 5, u'9258': 5, u'8202': 8, u'43989': 8, u'63470': 8, u'42209': 8, u'50063': 8, u'53582': 8, u'6022': 8}
+transaction id: 46342
+asn: 36114
+
+ip: 46.116.85.22
+count: 27
+method: dns
+type: attack
+start time: 2015-08-21T16:16:59.762Z
+end time: 2015-08-21T16:17:41.563Z
+country: Israel
+region: Tel Aviv
+queries: {u'isc.org': 27}
+qtype: {u'255': 27}
+source ports: {u'5433': 6, u'31279': 3, u'9825': 5, u'58522': 4, u'34996': 1, u'42670': 3, u'4842': 5}
+transaction id: 52983
+asn: 1680
+
+ip: 213.77.7.41
+count: 1583
+method: dns
+type: attack
+start time: 2015-08-21T16:09:34.251Z
+end time: 2015-08-21T16:19:30.676Z
+country: Poland
+region: Mazowieckie
+queries: {u'cpsc.gov': 1583}
+qtype: {u'255': 1583}
+source ports: {u'23604': 8, u'29039': 8, u'8944': 5, u'53709': 8, u'45860': 5, u'50456': 5, u'33615': 8, u'445': 5, u'35676': 9, u'56366': 8}
+transaction id: 52466
+asn: 5617
+
+ip: 82.3.188.72
+count: 287
+method: dns
+type: attack
+start time: 2015-08-21T16:06:46.251Z
+end time: 2015-08-21T16:13:17.634Z
+country: United Kingdom
+region: Newport
+queries: {u'isc.org': 287}
+qtype: {u'255': 287}
+source ports: {u'44445': 4, u'22456': 3, u'34798': 3, u'62101': 5, u'23187': 4, u'8343': 2, u'8594': 3, u'55769': 3, u'61642': 5, u'9683': 2}
+transaction id: 32807
+asn: 5089
+
+ip: 95.213.143.57
+count: 34
+method: ntp
+type: attack
+start time: 2015-08-21T00:01:54.392Z
+end time: 2015-08-21T00:13:37.500Z
+country: Russian Federation
+region: 
+source ports: {}
+asn: 49505
+
+ip: 94.240.120.122
+count: 136
+method: ntp
+type: attack
+start time: 2015-08-21T00:02:28.397Z
+end time: 2015-08-21T00:24:52.611Z
+country: Russian Federation
+region: 
+source ports: {}
+asn: 48092
+
+ip: 104.159.185.212
+count: 2
+method: ntp
+type: scan
+start time: 2015-08-21T00:06:59.443Z
+end time: 2015-08-21T00:06:59.443Z
+country: 
+region: 
+source ports: {}
+asn: 20115
+
+ip: 108.180.106.235
+count: 93
+method: ntp
+type: attack
+start time: 2015-08-21T00:06:01.431Z
+end time: 2015-08-21T00:09:21.467Z
+country: Canada
+region: British Columbia
+source ports: {}
+asn: 852
+
+ip: 14.29.32.183
+count: 43
+method: ntp
+type: attack
+start time: 2015-08-21T00:17:33.541Z
+end time: 2015-08-21T00:21:52.581Z
+country: China
+region: Guangdong
+source ports: {}
+asn: 58543
+
+ip: 176.37.1.21
+count: 1
+method: ntp
+type: scan
+start time: 2015-08-21T00:02:59.402Z
+end time: 2015-08-21T00:02:59.402Z
+country: Ukraine
+region: Kyyiv
+source ports: {}
+asn: 39608
+
+ip: 194.236.188.144
+count: 24
+method: ntp
+type: attack
+start time: 2015-08-21T00:22:48.589Z
+end time: 2015-08-21T00:24:39.609Z
+country: Sweden
+region: 
+source ports: {}
+asn: 3301
+
+ip: 50.89.15.115
+count: 7
+method: ntp
+type: scan
+start time: 2015-08-21T00:23:54.601Z
+end time: 2015-08-21T00:23:54.601Z
+country: United States
+region: Florida
+source ports: {}
+asn: 33363
+
+ip: 87.217.50.168
+count: 124
+method: ntp
+type: attack
+start time: 2015-08-21T00:01:21.383Z
+end time: 2015-08-21T00:23:42.598Z
+country: Spain
+region: Andalucia
+source ports: {}
+asn: 12715
+
+ip: 177.93.107.254
+count: 10
+method: ntp
+type: scan
+start time: 2015-08-21T00:01:33.390Z
+end time: 2015-08-21T00:01:33.390Z
+country: Brazil
+region: 
+source ports: {}
+asn: 53107
+
+ip: 112.90.168.93
+count: 191975
+method: ntp
+type: attack
+start time: 2015-08-21T16:12:40.023Z
+end time: 2015-08-21T16:30:02.092Z
+country: China
+region: Guangdong
+source ports: {}
+asn: 4837
+
+ip: 50.159.212.34
+count: 10
+method: ntp
+type: scan
+start time: 2015-08-21T00:23:53.600Z
+end time: 2015-08-21T00:24:00.603Z
+country: United States
+region: 
+source ports: {}
+asn: 7922
+
+ip: 80.111.118.228
+count: 41
+method: ntp
+type: attack
+start time: 2015-08-21T00:08:48.459Z
+end time: 2015-08-21T00:23:57.602Z
+country: Austria
+region: 
+source ports: {}
+asn: 6830
+
+ip: 66.131.204.13
+count: 2
+method: ntp
+type: scan
+start time: 2015-08-21T00:23:56.601Z
+end time: 2015-08-21T00:23:56.601Z
+country: Canada
+region: Quebec
+source ports: {}
+asn: 5769
+
+ip: 188.232.56.90
+count: 90
+method: ntp
+type: attack
+start time: 2015-08-21T00:14:50.510Z
+end time: 2015-08-21T00:21:01.575Z
+country: Russian Federation
+region: Omsk
+source ports: {}
+asn: 50543
+
+ip: 14.152.83.75
+count: 148682
+method: ntp
+type: attack
+start time: 2015-08-21T16:12:20.175Z
+end time: 2015-08-21T16:30:01.835Z
+country: China
+region: Guangdong
+source ports: {}
+asn: 58543
+
+ip: 177.43.213.165
+count: 83
+method: ntp
+type: attack
+start time: 2015-08-21T00:18:49.553Z
+end time: 2015-08-21T00:24:55.612Z
+country: Brazil
+region: Sao Paulo
+source ports: {}
+asn: 18881
+
+ip: 128.199.163.244
+count: 18
+method: ntp
+type: scan
+start time: 2015-08-21T00:00:47.378Z
+end time: 2015-08-21T00:09:57.473Z
+country: United Kingdom
+region: 
+source ports: {}
+asn: 133165
+
+ip: 60.169.73.143
+count: 1
+method: Elasticsearch
+type: scan
+start time: 2015-08-21T16:09:19.514Z
+end time: 2015-08-21T16:09:19.514Z
+country: China
+region: Anhui
+source ports: {u'64672': 1}
+asn: 4134
+
+ip: 213.136.73.20
+count: 16
+method: CHARGEN
+type: scan
+start time: 2015-08-21T00:01:45.269Z
+end time: 2015-08-21T00:08:56.415Z
+country: Germany
+region: 
+source ports: {u'9209': 1, u'57353': 1, u'5981': 1, u'4192': 1, u'35161': 1, u'28877': 1, u'37845': 1, u'29097': 1, u'29700': 1, u'37191': 1}
+asn: 51167
+
+ip: 70.211.66.218
+count: 4
+method: CHARGEN
+type: scan
+start time: 2015-08-21T00:03:09.294Z
+end time: 2015-08-21T00:03:10.295Z
+country: United States
+region: 
+source ports: {u'32488': 1, u'45761': 1, u'22017': 1, u'16949': 1}
+asn: 22394
+
+ip: 128.199.163.244
+count: 1
+method: CHARGEN
+type: scan
+start time: 2015-08-21T00:02:28.280Z
+end time: 2015-08-21T00:02:28.280Z
+country: United Kingdom
+region: 
+source ports: {u'7226': 1}
+asn: 133165
+
