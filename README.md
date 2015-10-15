@@ -1,12 +1,20 @@
-# honeynet
+# Hybrid-Darknet-Concept
 
-Honeynet of Ubuntu 14.04 LTS
-
-Zane Witherspoon
-
+Founder
 Terrence Gareau
 
-2 June 2015
+Collaborators
+Zane Witherspoon - Nexusguard
+Achilleas Moustakis - Nexusguard
+Krassimir T. Tzvetanov - A10
+
+Project Sponsors
+A10
+Nexusguard
+Cari.net
+
+Requirements
+Ubuntu 14.04 LTS
 
 According to the diagram, it takes at least 3 machines to build the honeynet: 
 the rabbitMQ data broker, 
