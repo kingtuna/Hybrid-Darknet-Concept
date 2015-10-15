@@ -1,12 +1,17 @@
 # Hybrid-Darknet-Concept
 
 Founder
+
 Terrence Gareau
 
 Collaborators
+
 Zane Witherspoon - Nexusguard
+
 Achilleas Moustakis - Nexusguard
+
 Krassimir T. Tzvetanov - A10
+
 
 Project Sponsors
 A10
