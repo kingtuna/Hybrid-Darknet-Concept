@@ -1,0 +1,17 @@
+Method,Color
+CHARGEN,#ffc425
+dns,#00b159
+Echo,brown
+IKE,#a200ff
+MDNS,#fb2e01
+Mssql,#96ceb4
+NAT-PMP,#0c457d
+ntp,#f37735
+Portmapper,#00aedb
+RIP,#8ec127
+Sentinal-5093,#fffeb3
+SNMP,#ffbbee
+SSDP,#853d8b
+TeamSpeak3,#0073e5
+UnrealTournament,#dfe3ee
+XDMCP,#ffcd94

@@ -21,8 +21,12 @@ names(jColors) <- methodColors$Method
 #https://ryouready.wordpress.com/2009/02/17/r-good-practice-adding-footnotes-to-graphics/
 # basic information at the beginning of each script
 scriptName <- "Attackers.R"
-author <- "tuna"
-footnote <- paste(scriptName, format(Sys.time(), "%d %b %Y"),
+author <- "TG"
+company <- "Nexusguard, Inc."
+#footnote <- paste(scriptName, format(Sys.time(), "%d %b %Y"),
+#                  author, sep=" / ")
+
+footnote <- paste(company,
                   author, sep=" / ")
 
 # default footnote is today's date, cex=.7 (size) and color
@@ -89,7 +93,7 @@ print(ggplot(topbase, aes(x = asn, fill = method)) +
         xlab("Observed Autonomous Systems") +
         ylab("Total Count of Attacks") +
         labs(fill = "Attack Methods"))
-#makeFootnote(footnote)
+makeFootnote(footnote)
 dev.off()
 # Top10 PNG End -------------------
 
