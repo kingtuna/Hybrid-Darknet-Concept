@@ -13,7 +13,7 @@
 #include <err.h>
 
 int handle_datagram(char buffer[], int count){
-    if (strstr(buffer,"\x17\x00\x03\x2a\x00\x00\x00\x00")!=NULL){
+    if (strstr(buffer,"\x00\x00")!=NULL){
         //printf("Message received!\n");
         return 1;
     }
