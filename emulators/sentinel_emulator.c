@@ -39,7 +39,7 @@ int main(){
 
 	//IP address and port converted from string to struct sockaddr_in
     	const char* hostname="0.0.0.0"; /* wildcard */
-    	const char* portname="1900";
+    	const char* portname="5093";
    	struct addrinfo hints;
 	
 	//Content to reflect back
