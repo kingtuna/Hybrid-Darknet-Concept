@@ -16,7 +16,7 @@ cd build
 ###### setup hostname ######
 
 OLDHOSTNAME=`cat /etc/hostname`
-echo honey`/sbin/ifconfig eth0 | grep 'inet addr:' | cut -d: -f2 | awk '{ print $1}'`> /etc/hostname
+echo honey_`/sbin/ifconfig eth0 | grep 'inet addr:' | cut -d: -f2 | awk '{ print $1}'`> /etc/hostname
 NEWHOSTNAME=`cat /etc/hostname`
 hostname $NEWHOSTNAME
 
