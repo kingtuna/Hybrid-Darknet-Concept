@@ -16,7 +16,7 @@ cd build
 ###### setup hostname ######
 
 OLDHOSTNAME=`cat /etc/hostname`
-echo honey_`/sbin/ifconfig eth0 | grep 'inet addr:' | cut -d: -f2 | awk '{ print $1}'`> /etc/hostname
+echo honey-`/sbin/ifconfig eth0 | grep 'inet addr:' | cut -d: -f2 | awk '{ print $1}'`> /etc/hostname
 NEWHOSTNAME=`cat /etc/hostname`
 hostname $NEWHOSTNAME
 
@@ -87,6 +87,26 @@ cd /root/build/ssdp/
 curl https://raw.githubusercontent.com/kingtuna/honeynet/master/emulators/SSDP_Emulator.c > SSDP_Emulator.c
 gcc SSDP_Emulator.c -o SSDP_Emulator
 /root/build/ssdp/SSDP_Emulator
+
+###### Install heartbeat_emulator #######
+#if [! -d /root/build/heartbeat];then
+#	mkdir /root/build/hearbeat
+#fi
+#cd /root/build/heartbeat/
+#curl https://raw.githubusercontent.com/kingtuna/honeynet/master/emulators/heartbeat_emulator.c > heartbeat_emulator.c
+#gcc heartbeat_emulator.c -o heartbeat_emulator
+#/root/build/heartbeat/heartbeat_emulator
+
+###### Install mdns Service Emulator #######
+#if [! -d /root/build/mdns];then
+#	mkdir /root/build/mdns
+#fi
+#cd /root/build/mdns/
+#curl https://raw.githubusercontent.com/kingtuna/honeynet/master/emulators/mdns_emulator.c > mdns_emulator.c
+#gcc mdns_emulator.c -o mdns_emulator
+#/root/build/mdns/mdns_emulator
+
+
 
 ###### Install sentinel Service Emulator ######
 cd /root/build/
