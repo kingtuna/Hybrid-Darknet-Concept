@@ -248,7 +248,7 @@ service bind9 restart
 #
 # Javier this breaks a lot if bro doesn't get installed this is probabbly why
 
-
+cd /root/build/
 wget http://geolite.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz
 wget http://geolite.maxmind.com/download/geoip/database/GeoLiteCityv6-beta/GeoLiteCityv6.dat.gz
 gunzip GeoLiteCity.dat.gz
