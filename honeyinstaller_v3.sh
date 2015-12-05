@@ -106,7 +106,29 @@ gcc SSDP_Emulator.c -o SSDP_Emulator
 #gcc mdns_emulator.c -o mdns_emulator
 #/root/build/mdns/mdns_emulator
 
+##### Install nat-pmp Service Emulator #####
+if [ ! -d /root/build/nat-pmp];then
+	mkdir /root/build/nat-pmp
+fi
+cd /root/build/nat-pmp/ && curl https://raw.githubusercontent.com/kingtuna/honeynet/master/emulators/nat-pmp_emulator.c > nat-pmp_emulator.c
+gcc nat-pmp_emulator.c -o nat-pmp_emulator
+/root/build/nat-pmp/nat-pmp_emulator
 
+##### Install quake Service Emulator *****
+if [ ! -d /root/build/quake_emu];then
+	mkdir /root/build/quake_emu
+fi
+cd /root/build/quake_emu && curl curl https://raw.githubusercontent.com/kingtuna/honeynet/master/emulators/quake_emulator.c > quake_emulator.c
+gcc quake_emulator.c -o quake_emulator
+/root/build/quake_emu/quake_emulator
+
+##### Install ripv1 Service Emulator *****
+if [ ! -d /root/build/ripv1];then
+	mkdir /root/build/ripv1
+fi
+cd /root/build/ripv1 && curl curl https://raw.githubusercontent.com/kingtuna/honeynet/master/emulators/ripv1_emulator.c > ripv1_emulator
+gcc ripv1_emulator.c -o ripv1_emulator
+/root/build/ripv1/ripv1_emulator
 
 ###### Install sentinel Service Emulator ######
 cd /root/build/
