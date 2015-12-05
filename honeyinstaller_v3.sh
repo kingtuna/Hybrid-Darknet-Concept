@@ -436,9 +436,12 @@ export PATH=/nsm/bro/bin:$PATH
 sleep 2
 hping3 --rand-source -c 600 --udp -p 123 --fast -n 127.0.0.1 -d 48 -E /root/ntp.bin
 service logstash restart
-killall sentinel_emulator
-killall SSDP_Emulator
 /root/build/ssdp/SSDP_Emulator
+/root/build/heartbeat/heartbeat_emulator
+/root/build/mdns/mdns_emulator
+/root/build/nat-pmp/nat-pmp_emulator
+/root/build/quake_emu/quake_emulator
+/root/build/ripv1/ripv1_emulator
 /root/build/sentinel/sentinel_emulator
 
 exit 0
