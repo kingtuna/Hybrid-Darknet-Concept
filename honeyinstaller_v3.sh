@@ -407,5 +407,4 @@ printf '*/30 * * * * service bind9 restart
 crontab crontab.txt
 
 echo "net.ipv4.tcp_keepalive_intvl=570" >> /etc/sysctl.conf
-apt-get -y upgrade
 reboot
