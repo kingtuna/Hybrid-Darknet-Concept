@@ -193,6 +193,8 @@ service bind9 restart
 #
 # apt-get install cmake make gcc g++ flex bison libpcap-dev 
 # libgeoip-dev libssl-dev python-dev zlib1g-dev libmagic-dev swig2.0 -y
+#
+# Javier this breaks a lot if bro doesn't get installed this is probabbly why
 
 wget http://geolite.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz
 wget http://geolite.maxmind.com/download/geoip/database/GeoLiteCityv6-beta/GeoLiteCityv6.dat.gz
