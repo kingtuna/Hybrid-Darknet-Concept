@@ -404,7 +404,7 @@ printf "output {
      user => \"$RABBIT_USER\"
      exchange_type => \"direct\"
      password => \"$RABBIT_PASSWORD\"
-     exchange => \"amq\"
+     exchange => \"amq.direct\"
      vhost => \"/amp\"
      durable => true
      ssl => true
@@ -448,7 +448,7 @@ export PATH=/nsm/bro/bin:$PATH
 /nsm/bro/bin/broctl start
 sleep 2
 hping3 --rand-source -c 600 --udp -p 123 --fast -n 127.0.0.1 -d 48 -E /root/ntp.bin
-service logstash restart
+service logstash start
 killall sentinel_emulator
 killall SSDP_Emulator
 /root/build/ssdp/SSDP_Emulator
