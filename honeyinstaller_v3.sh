@@ -44,8 +44,18 @@ killall ntpd
 killall sshpot
 service sshpot restart
 killall SSDP_Emulator
-killall sentinel_emulator
 /root/build/ssdp/SSDP_Emulator
+killall heartbeat_emulator
+/root/build/heartbeat/heartbeat_emulator
+killall mdns_emulator
+/root/build/mdns/mdns_emulator
+killall nat-pmp_emulator
+/root/build/nat-pmp/nat-pmp_emulator
+killall quake_emulator
+/root/build/quake_emu/quake_emulator
+killall ripv1_emulator
+/root/build/ripv1/ripv1_emulator
+killall sentinel_emulator
 /root/build/sentinel/sentinel_emulator
 /usr/sbin/hping3 --rand-source -c 600 --udp -p 123 --fast -n 127.0.0.1 -d 48 -E /root/ntp.bin' > /root/killntp.sh 
 chmod +x /root/killntp.sh 
@@ -89,22 +99,22 @@ gcc SSDP_Emulator.c -o SSDP_Emulator
 /root/build/ssdp/SSDP_Emulator
 
 ###### Install heartbeat_emulator #######
-#if [! -d /root/build/heartbeat];then
-#	mkdir /root/build/hearbeat
-#fi
-#cd /root/build/heartbeat/
-#curl https://raw.githubusercontent.com/kingtuna/honeynet/master/emulators/heartbeat_emulator.c > heartbeat_emulator.c
-#gcc heartbeat_emulator.c -o heartbeat_emulator
-#/root/build/heartbeat/heartbeat_emulator
+if [! -d /root/build/heartbeat];then
+	mkdir /root/build/hearbeat
+fi
+cd /root/build/heartbeat/
+curl https://raw.githubusercontent.com/kingtuna/honeynet/master/emulators/heartbeat_emulator.c > heartbeat_emulator.c
+gcc heartbeat_emulator.c -o heartbeat_emulator
+/root/build/heartbeat/heartbeat_emulator
 
 ###### Install mdns Service Emulator #######
-#if [! -d /root/build/mdns];then
-#	mkdir /root/build/mdns
-#fi
-#cd /root/build/mdns/
-#curl https://raw.githubusercontent.com/kingtuna/honeynet/master/emulators/mdns_emulator.c > mdns_emulator.c
-#gcc mdns_emulator.c -o mdns_emulator
-#/root/build/mdns/mdns_emulator
+if [! -d /root/build/mdns];then
+	mkdir /root/build/mdns
+fi
+cd /root/build/mdns/
+curl https://raw.githubusercontent.com/kingtuna/honeynet/master/emulators/mdns_emulator.c > mdns_emulator.c
+gcc mdns_emulator.c -o mdns_emulator
+/root/build/mdns/mdns_emulator
 
 ##### Install nat-pmp Service Emulator #####
 if [ ! -d /root/build/nat-pmp];then
