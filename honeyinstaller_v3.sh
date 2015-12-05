@@ -394,7 +394,19 @@ killall SSDP_Emulator
 exit 0
 ' > /etc/rc.local 
 
-
+###### Install Geoupdater ######
+echo '#!/bin/bash
+## This script updates the maxmind database on the honeypot
+cd /root/build/
+wget -N http://geolite.maxmind.com/download/geoip/database/GeoLiteCity.dat.gz
+wget -N http://geolite.maxmind.com/download/geoip/database/GeoLiteCityv6-beta/GeoLiteCityv6.dat.gz
+gunzip GeoLiteCity.dat.gz
+gunzip GeoLiteCityv6.dat.gz
+mv GeoLiteCity.dat  /usr/share/GeoIP/GeoLiteCity.dat
+mv GeoLiteCityv6.dat /usr/share/GeoIP/GeoLiteCityv6.dat
+ln -s /usr/share/GeoIP/GeoLiteCity.dat /usr/share/GeoIP/GeoIPCity.dat
+ln -s /usr/share/GeoIP/GeoLiteCityv6.dat /usr/share/GeoIP/GeoIPCityv6.dat' > /root/geoupdate.sh
+chmod +x /root/geoupdate.sh
 
 ##### crontab to install
 ##start logstash and bro
@@ -403,6 +415,7 @@ printf '*/30 * * * * service bind9 restart
 */30 * * * * /etc/init.d/xinetd restart
 * */2 * * * /root/killntp.sh
 0-59/5 * * * * /nsm/bro/bin/broctl cron
+23 2 * * * /root/geoupdate.sh
 ' > crontab.txt
 crontab crontab.txt
 
