@@ -6,6 +6,13 @@
 ####                                            ####
 ####################################################
 
+###### Variables ######
+INTERFACE='em1'
+RABBIT_USER='amp'
+RABBIT_PASSWORD='password'
+RABBIT_HOST='1.1.1.1'
+
+###### Get Things ######
 apt-get update
 apt-get -y install gcc build-essential bind9 dnsutils cmake make gcc g++ flex bison gcc
 apt-get -y install libpcap-dev libgeoip-dev libssl-dev python-dev zlib1g-dev libmagic-dev 
@@ -16,10 +23,9 @@ cd build
 ###### setup hostname ######
 
 OLDHOSTNAME=`cat /etc/hostname`
-echo honey-`/sbin/ifconfig eth0 | grep 'inet addr:' | cut -d: -f2 | awk '{ print $1}'`> /etc/hostname
+echo honey`/sbin/ifconfig $INTERFACE | grep 'inet addr:' | cut -d: -f2 | awk '{ print $1}'`> /etc/hostname
 NEWHOSTNAME=`cat /etc/hostname`
 hostname $NEWHOSTNAME
-
 cat /etc/hosts | sed  s/$OLDHOSTNAME/$NEWHOSTNAME/g > /tmp/hosts
 mv -f /tmp/hosts /etc/hosts
 echo -e "127.0.0.1\t$NEWHOSTNAME" >> /etc/hosts
@@ -313,6 +319,10 @@ KEFuYWx5emVyOjpBTkFMWVpFUl9OVFAsIHBvcnRzKTsKICAgICAgICB9Cg==' | base64 -d > /nsm
 echo '#add NTP suport
 @load ntp' >> /nsm/bro/share/bro/site/local.bro
 
+## Set Interface
+cat /nsm/bro/etc/node.cfg | sed -e "s/interface\=eth0/interface\=$INTERFACE/g" > /tmp/node.cfg
+mv -f /tmp/node.cfg /nsm/bro/etc/node.cfg
+
 export PATH=/nsm/bro/bin:$PATH
 /nsm/bro/bin/broctl install
 /nsm/bro/bin/broctl start
@@ -389,20 +399,20 @@ ICAgbXV0YXRlIHsKICAgICAgY29udmVydCA9PiBbICJbZ2VvaXBdW2Nvb3JkaW5hdGVzXSIsICJm
 bG9hdCIgXQogICAgfQogICAgbXV0YXRlIHsKICAgICAgdXBwZXJjYXNlID0+IFsgImdlb2lwLmNv
 dW50cnlfY29kZTIiIF0KICAgIH0KICB9Cn0K' | base64 -d  > /etc/logstash/bro.conf
 
-printf 'output {
+printf "output {
   rabbitmq {
-     user => "USER"
-     exchange_type => "direct"
-     password => "PASSWORD"
-     exchange => "amq.direct"
-     vhost => "/amp"
+     user => \"$RABBIT_USER\"
+     exchange_type => \"direct\"
+     password => \"$RABBIT_PASSWORD\"
+     exchange => \"amq\"
+     vhost => \"/amp\"
      durable => true
      ssl => true
      port => 5671
      persistent => true
-     host => "hose_ip"
+     host => \"$RABBIT_HOST\"
   }
-}' >> /etc/logstash/bro.conf
+}" >> /etc/logstash/bro.conf
 
 curl https://raw.githubusercontent.com/kingtuna/logstash-ubuntu-misc/master/upstart.logstash.conf > /etc/init/logstash.conf
 
@@ -439,12 +449,9 @@ export PATH=/nsm/bro/bin:$PATH
 sleep 2
 hping3 --rand-source -c 600 --udp -p 123 --fast -n 127.0.0.1 -d 48 -E /root/ntp.bin
 service logstash restart
+killall sentinel_emulator
+killall SSDP_Emulator
 /root/build/ssdp/SSDP_Emulator
-/root/build/heartbeat/heartbeat_emulator
-/root/build/mdns/mdns_emulator
-/root/build/nat-pmp/nat-pmp_emulator
-/root/build/quake_emu/quake_emulator
-/root/build/ripv1/ripv1_emulator
 /root/build/sentinel/sentinel_emulator
 
 exit 0
