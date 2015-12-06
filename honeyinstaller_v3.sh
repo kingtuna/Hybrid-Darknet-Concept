@@ -105,7 +105,7 @@ gcc SSDP_Emulator.c -o SSDP_Emulator
 /root/build/ssdp/SSDP_Emulator
 
 ###### Install heartbeat_emulator #######
-if [! -d /root/build/heartbeat];then
+if [ ! -d /root/build/heartbeat ]; then
 	mkdir /root/build/hearbeat
 fi
 cd /root/build/heartbeat/
@@ -114,7 +114,7 @@ gcc heartbeat_emulator.c -o heartbeat_emulator
 /root/build/heartbeat/heartbeat_emulator
 
 ###### Install mdns Service Emulator #######
-if [! -d /root/build/mdns];then
+if [ ! -d /root/build/mdns ]; then
 	mkdir /root/build/mdns
 fi
 cd /root/build/mdns/
@@ -123,7 +123,7 @@ gcc mdns_emulator.c -o mdns_emulator
 /root/build/mdns/mdns_emulator
 
 ##### Install nat-pmp Service Emulator #####
-if [ ! -d /root/build/nat-pmp];then
+if [ ! -d /root/build/nat-pmp ]; then
 	mkdir /root/build/nat-pmp
 fi
 cd /root/build/nat-pmp/ && curl https://raw.githubusercontent.com/kingtuna/Hybrid-Darknet-Concept/master/emulators/nat-pmp_emulator.c > nat-pmp_emulator.c
@@ -131,7 +131,7 @@ gcc nat-pmp_emulator.c -o nat-pmp_emulator
 /root/build/nat-pmp/nat-pmp_emulator
 
 ##### Install quake Service Emulator *****
-if [ ! -d /root/build/quake_emu];then
+if [ ! -d /root/build/quake_emu ]; then
 	mkdir /root/build/quake_emu
 fi
 cd /root/build/quake_emu && curl https://raw.githubusercontent.com/kingtuna/Hybrid-Darknet-Concept/master/emulators/quake_emulator.c > quake_emulator.c
@@ -139,7 +139,7 @@ gcc quake_emulator.c -o quake_emulator
 /root/build/quake_emu/quake_emulator
 
 ##### Install ripv1 Service Emulator *****
-if [ ! -d /root/build/ripv1];then
+if [ ! -d /root/build/ripv1 ]; then
 	mkdir /root/build/ripv1
 fi
 cd /root/build/ripv1 && curl https://raw.githubusercontent.com/kingtuna/Hybrid-Darknet-Concept/master/emulators/ripv1_emulator.c > ripv1_emulator.c
