@@ -106,10 +106,9 @@ gcc SSDP_Emulator.c -o SSDP_Emulator
 
 ###### Install heartbeat_emulator #######
 if [ ! -d /root/build/heartbeat ]; then
-	mkdir /root/build/hearbeat
+	mkdir /root/build/heartbeat
 fi
-cd /root/build/heartbeat/
-curl https://raw.githubusercontent.com/kingtuna/Hybrid-Darknet-Concept/master/emulators/heartbeat_emulator.c > heartbeat_emulator.c
+cd /root/build/heartbeat && curl https://raw.githubusercontent.com/kingtuna/Hybrid-Darknet-Concept/master/emulators/heartbeat_emulator.c > heartbeat_emulator.c
 gcc heartbeat_emulator.c -o heartbeat_emulator
 /root/build/heartbeat/heartbeat_emulator
 
@@ -117,8 +116,7 @@ gcc heartbeat_emulator.c -o heartbeat_emulator
 if [ ! -d /root/build/mdns ]; then
 	mkdir /root/build/mdns
 fi
-cd /root/build/mdns/
-curl https://raw.githubusercontent.com/kingtuna/Hybrid-Darknet-Concept/master/emulators/mdns_emulator.c > mdns_emulator.c
+cd /root/build/mdns && curl https://raw.githubusercontent.com/kingtuna/Hybrid-Darknet-Concept/master/emulators/mdns_emulator.c > mdns_emulator.c
 gcc mdns_emulator.c -o mdns_emulator
 /root/build/mdns/mdns_emulator
 
