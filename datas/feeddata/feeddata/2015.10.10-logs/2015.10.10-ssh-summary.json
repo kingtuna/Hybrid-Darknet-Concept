@@ -1,0 +1,42 @@
+{
+    "Username-Password Combinations": {
+        "sales": "sales", 
+        "nagios": "nagios", 
+        "disco": "disco", 
+        "guest": "guest", 
+        "enibas": "enibas", 
+        "zhangyan": "zhangyan7tian", 
+        "aaron": "aaron", 
+        "john": "john", 
+        "username": "password", 
+        "hurra": "hurra", 
+        "ftpuser": "asteriskftp", 
+        "teamspeak": "teamspeak", 
+        "student": "student", 
+        "tecmint": "tecmint", 
+        "ziadmarzouka": "flex123", 
+        "dff": "3rddf", 
+        "buster": "buster", 
+        "kodi": "kodi", 
+        "admin": "123456", 
+        "david": "david", 
+        "root": "root", 
+        "ts3": "ts3"
+    }, 
+    "SSH BRUTEFORCERS": {
+        "9": "40.127.98.212", 
+        "3": "117.247.82.242", 
+        "12": "219.151.12.3"
+    }, 
+    "TOP USERNAMES": {
+        "1": "tecmint", 
+        "2": "guest", 
+        "27": "root", 
+        "5": "admin"
+    }, 
+    "TOP PASSWORDS": {
+        "2": "1234", 
+        "3": "alpine", 
+        "4": "root"
+    }
+}

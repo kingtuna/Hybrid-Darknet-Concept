@@ -1,0 +1,59 @@
+{
+    "Username-Password Combinations": {
+        "app": "app123", 
+        "notice": "notice@$)", 
+        "mysql": "mysql", 
+        "gusr": "chaonimabi123456123", 
+        "git": "git", 
+        "guest": "guest", 
+        "nano": "bl3rand,.", 
+        "gyaseen": "g30123-+", 
+        "nan": "123456789a123", 
+        "test": "test", 
+        "ubnt": "1", 
+        "red": "a0.418.0a", 
+        "nmrsu": "topspin", 
+        "postgres": "delibare1982", 
+        "nfsnobod": "stres123", 
+        "user": "password", 
+        "ubuntu": "pass123", 
+        "payment": "payment123QWE", 
+        "ghost": "2164823977newpass123", 
+        "pi": "raspberry", 
+        "admin": "12345678", 
+        "lihan": "a0.418.0a", 
+        "zabbix": "zabbix", 
+        "r00t": "r00t", 
+        "oracle": "123456789", 
+        "root": "123456"
+    }, 
+    "SSH BRUTEFORCERS": {
+        "96": "13.76.208.119", 
+        "1": "107.151.159.161", 
+        "3": "193.104.41.54", 
+        "70": "23.94.153.178", 
+        "1160": "119.147.137.10", 
+        "11": "80.82.64.122", 
+        "14": "112.168.26.199", 
+        "18": "193.106.30.59", 
+        "30": "41.59.61.2"
+    }, 
+    "TOP USERNAMES": {
+        "1314": "root", 
+        "4": "pi", 
+        "6": "user", 
+        "11": "ubnt", 
+        "12": "oracle", 
+        "2": "lihan", 
+        "14": "admin", 
+        "20": "ubuntu"
+    }, 
+    "TOP PASSWORDS": {
+        "4": "1234567", 
+        "5": "12345678", 
+        "7": "1", 
+        "8": "123", 
+        "9": "123456", 
+        "10": "1234"
+    }
+}

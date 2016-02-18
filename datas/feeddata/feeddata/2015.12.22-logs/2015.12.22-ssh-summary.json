@@ -1,0 +1,22 @@
+{
+    "Username-Password Combinations": {
+        "root02": "root02", 
+        "root": "010203", 
+        "root001": "root001", 
+        "root01": "root01"
+    }, 
+    "SSH BRUTEFORCERS": {
+        "16": "117.32.132.146", 
+        "1": "180.250.115.75", 
+        "10": "77.160.251.51", 
+        "5": "117.21.225.152"
+    }, 
+    "TOP USERNAMES": {
+        "1": "root001", 
+        "31": "root"
+    }, 
+    "TOP PASSWORDS": {
+        "1": "dontxekme", 
+        "3": "root"
+    }
+}

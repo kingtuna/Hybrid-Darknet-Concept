@@ -1,0 +1,55 @@
+{
+    "Username-Password Combinations": {
+        "cisco": "cisco", 
+        "demo": "demo", 
+        "Support": "Support", 
+        "administrator": "administrator", 
+        "nagios": "nagios", 
+        "ftpuser": "asteriskftp", 
+        "ftp": "ftp", 
+        "guest": "guest", 
+        "xbian": "raspberry", 
+        "support": "support", 
+        "ubnt": "ubnt", 
+        "send": "send", 
+        "lp": "lp", 
+        "pi": "raspberry", 
+        "lea": "lea", 
+        "fax": "fax", 
+        "christian": "christian", 
+        "postgres": "postgres", 
+        "teamspeak": "teamspeak", 
+        "ts": "ts", 
+        "telnet": "telnet", 
+        "user": "user", 
+        "webmaster": "webmaster", 
+        "john": "john", 
+        "karaf": "karaf", 
+        "kodi": "kodi", 
+        "admin": "123456", 
+        "backup": "backup", 
+        "default": "default", 
+        "root": "12345678", 
+        "ts3": "ts3", 
+        "xbmc": "xbmc", 
+        "jack": "jack"
+    }, 
+    "SSH BRUTEFORCERS": {
+        "3": "218.17.149.227", 
+        "4": "193.104.41.53", 
+        "5": "40.127.98.212", 
+        "23": "85.93.89.5"
+    }, 
+    "TOP USERNAMES": {
+        "1": "ubnt", 
+        "2": "pi", 
+        "6": "admin", 
+        "38": "root"
+    }, 
+    "TOP PASSWORDS": {
+        "1": "user", 
+        "2": "lea", 
+        "3": "admin", 
+        "4": "raspberry"
+    }
+}

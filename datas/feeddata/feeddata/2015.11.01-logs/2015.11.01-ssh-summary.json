@@ -1,0 +1,44 @@
+{
+    "Username-Password Combinations": {
+        "a": "a", 
+        "hdfs": "hdfs", 
+        "administrator": "administrator", 
+        "dff": "3rddf", 
+        "guest": "guest", 
+        "ftp": "ftpuser", 
+        "admin": "admin", 
+        "sshd": "sshd", 
+        "zhangyan": "zhangyan7tian", 
+        "user": "raspberry", 
+        "PlcmSpIp": "PlcmSpIp", 
+        "ubuntu": "ubuntu", 
+        "test": "test", 
+        "pi": "raspberry", 
+        "anonymous": "anonymous", 
+        "ubnt": "ubnt", 
+        "root": "123muie123", 
+        "ts3": "ts3", 
+        "anna": "anna"
+    }, 
+    "SSH BRUTEFORCERS": {
+        "1": "115.210.181.126", 
+        "2": "103.243.107.56", 
+        "12": "185.61.136.43", 
+        "6": "52.91.189.137", 
+        "22": "69.64.58.192"
+    }, 
+    "TOP USERNAMES": {
+        "9": "admin", 
+        "2": "ftp", 
+        "4": "ubnt", 
+        "13": "root", 
+        "1": "zhangyan"
+    }, 
+    "TOP PASSWORDS": {
+        "8": "admin", 
+        "1": "ubuntu", 
+        "2": "12345", 
+        "3": "password", 
+        "4": "root"
+    }
+}

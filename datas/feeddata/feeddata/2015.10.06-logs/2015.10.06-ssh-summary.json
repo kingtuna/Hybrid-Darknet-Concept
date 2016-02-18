@@ -1,0 +1,25 @@
+{
+    "Username-Password Combinations": {
+        "info": "info", 
+        "fax": "fax", 
+        "cisco": "cisco", 
+        "admin": "admin", 
+        "user": "user", 
+        "root": "password", 
+        "fld": "fld"
+    }, 
+    "SSH BRUTEFORCERS": {
+        "1": "119.164.254.50", 
+        "2": "118.175.5.100", 
+        "3": "1.85.21.39"
+    }, 
+    "TOP USERNAMES": {
+        "1": "admin", 
+        "2": "fld", 
+        "3": "root"
+    }, 
+    "TOP PASSWORDS": {
+        "1": "1234567", 
+        "2": "fld"
+    }
+}

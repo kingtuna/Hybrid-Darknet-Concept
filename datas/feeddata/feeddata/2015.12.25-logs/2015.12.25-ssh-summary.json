@@ -1,0 +1,25 @@
+{
+    "Username-Password Combinations": {
+        "admin": "admin", 
+        "xxxxxxxx": "1111111111111", 
+        "pi": "raspberry", 
+        "root": "zaq12wsxcde34rfv"
+    }, 
+    "SSH BRUTEFORCERS": {
+        "1": "14.127.66.15", 
+        "2": "193.104.41.54", 
+        "35": "222.186.56.42", 
+        "100": "5.58.76.88", 
+        "1616": "222.186.56.89", 
+        "1621": "222.186.34.225"
+    }, 
+    "TOP USERNAMES": {
+        "1": "xxxxxxxx", 
+        "2": "admin", 
+        "3375": "root"
+    }, 
+    "TOP PASSWORDS": {
+        "2": "zhouxiao", 
+        "3": "147852369"
+    }
+}

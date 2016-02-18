@@ -1,0 +1,51 @@
+{
+    "Username-Password Combinations": {
+        "teamspeak3": "teamspeak3", 
+        "PlcmSpIp": "PlcmSpIp", 
+        "guest": "guest", 
+        "support": "support", 
+        "vagrant": "vagrant", 
+        "aaron": "aaron", 
+        "test": "test", 
+        "ubnt": "ubnt", 
+        "administrator": "administrator", 
+        "shoutcast": "shoutcast", 
+        "ftpuser": "asteriskftp", 
+        "teamspeak": "teamspeak", 
+        "ts3bot": "ts3bot", 
+        "user": "user", 
+        "pi": "raspberry", 
+        "kodi": "kodi", 
+        "admin": "1234", 
+        "root": "nosoup4u", 
+        "steam": "steam123", 
+        "ts3server": "ts3server", 
+        "minecraft": "123456", 
+        "ts3": "12345"
+    }, 
+    "SSH BRUTEFORCERS": {
+        "2": "218.156.116.224", 
+        "3": "82.80.232.34", 
+        "4": "221.231.139.206", 
+        "5": "193.104.41.53", 
+        "10": "23.102.225.54", 
+        "12": "31.210.42.34", 
+        "13": "118.175.5.100", 
+        "17": "187.50.71.54", 
+        "29": "50.63.84.17"
+    }, 
+    "TOP USERNAMES": {
+        "3": "pi", 
+        "43": "root", 
+        "4": "steam", 
+        "6": "admin", 
+        "7": "minecraft"
+    }, 
+    "TOP PASSWORDS": {
+        "8": "admin", 
+        "9": "root", 
+        "2": "test", 
+        "3": "raspberry", 
+        "4": "1234"
+    }
+}

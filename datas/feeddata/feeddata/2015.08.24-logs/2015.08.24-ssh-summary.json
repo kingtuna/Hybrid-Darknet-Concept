@@ -1,0 +1,45 @@
+{
+    "Username-Password Combinations": {
+        "a": "a", 
+        "pi": "raspberry", 
+        "guest": "guest", 
+        "admin": "root", 
+        "support": "support", 
+        "D-Link": "D-Link", 
+        "dragon": "1234", 
+        "radio": "radio", 
+        "user": "user", 
+        "test": "test", 
+        "ubnt": "ubnt", 
+        "root": "deltaforce123"
+    }, 
+    "SSH BRUTEFORCERS": {
+        "8": "80.82.64.127", 
+        "105": "45.114.11.17", 
+        "14": "218.87.111.108", 
+        "78": "182.100.67.113", 
+        "144": "218.65.30.217", 
+        "18": "221.203.3.117", 
+        "21": "58.218.211.166", 
+        "23": "182.100.67.52", 
+        "24": "193.104.41.137", 
+        "1116": "45.114.11.55"
+    }, 
+    "TOP USERNAMES": {
+        "1": "dragon", 
+        "2": "pi", 
+        "3": "ubnt", 
+        "8": "support", 
+        "12": "admin", 
+        "1559": "root"
+    }, 
+    "TOP PASSWORDS": {
+        "5": "t0talc0ntr0l4!", 
+        "6": "default", 
+        "7": "1234", 
+        "10": "password", 
+        "16": "12345", 
+        "18": "admin", 
+        "21": "root"
+    }
+}

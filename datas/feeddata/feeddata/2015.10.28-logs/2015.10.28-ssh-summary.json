@@ -1,0 +1,36 @@
+{
+    "Username-Password Combinations": {
+        "dff": "3rddf", 
+        "admin": "admin", 
+        "support": "support", 
+        "zhangyan": "zhangyan7tian", 
+        "operator": "operator", 
+        "ubnt": "ubnt", 
+        "root": "root"
+    }, 
+    "SSH BRUTEFORCERS": {
+        "1": "95.247.111.67", 
+        "2": "37.239.152.6", 
+        "3": "37.77.128.130", 
+        "5": "218.29.231.25", 
+        "6": "193.189.117.120", 
+        "8": "5.8.66.78", 
+        "41": "193.9.28.93", 
+        "12": "14.160.56.206"
+    }, 
+    "TOP USERNAMES": {
+        "64": "root", 
+        "16": "admin", 
+        "2": "dff", 
+        "6": "support", 
+        "1": "operator"
+    }, 
+    "TOP PASSWORDS": {
+        "1": "welcome", 
+        "2": "123456", 
+        "4": "12345", 
+        "6": "support", 
+        "14": "admin", 
+        "15": "root"
+    }
+}

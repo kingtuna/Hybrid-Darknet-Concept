@@ -1,0 +1,28 @@
+{
+    "Username-Password Combinations": {
+        "guest": "guest", 
+        "admin": "12345", 
+        "user": "user", 
+        "test": "test", 
+        "ubnt": "1", 
+        "root": "1111"
+    }, 
+    "SSH BRUTEFORCERS": {
+        "16": "193.189.117.120", 
+        "1": "138.255.29.80", 
+        "2": "222.186.190.71", 
+        "30": "222.217.72.85"
+    }, 
+    "TOP USERNAMES": {
+        "16": "root", 
+        "1": "guest", 
+        "21": "admin", 
+        "14": "ubnt"
+    }, 
+    "TOP PASSWORDS": {
+        "8": "admin", 
+        "3": "1", 
+        "4": "1234", 
+        "5": "root"
+    }
+}

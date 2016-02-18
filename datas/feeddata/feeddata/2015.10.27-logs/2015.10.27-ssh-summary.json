@@ -1,0 +1,37 @@
+{
+    "Username-Password Combinations": {
+        "dff": "3rddf", 
+        "123456": "123456", 
+        "admin": "guest", 
+        "support": "support", 
+        "boot": "123456", 
+        "oracle": "oracle", 
+        "zhangyan": "zhangyan7tian", 
+        "123": "123", 
+        "ubuntu": "ubuntu", 
+        "test": "test", 
+        "git": "git", 
+        "ubnt": "ubnt", 
+        "root": "123"
+    }, 
+    "SSH BRUTEFORCERS": {
+        "1": "104.239.158.119", 
+        "3": "212.164.122.73", 
+        "4": "14.160.56.206", 
+        "61": "61.166.33.184", 
+        "38": "193.9.28.93"
+    }, 
+    "TOP USERNAMES": {
+        "2": "oracle", 
+        "1": "dff", 
+        "42": "admin", 
+        "3": "support", 
+        "53": "root"
+    }, 
+    "TOP PASSWORDS": {
+        "1": "wvhlyf", 
+        "2": "12345678", 
+        "3": "admin", 
+        "4": "root"
+    }
+}

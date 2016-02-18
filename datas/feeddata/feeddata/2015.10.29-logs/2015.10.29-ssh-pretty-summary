@@ -1,0 +1,91 @@
+Daily Attack Feed2015.10.29Zane WitherspoonTerrence GareauNexusGuardSSH BRUTEFORCERS
+--------------------------------------------------------------------------------
+  222.217.72.85:  30
+193.189.117.120:  16
+  95.247.111.67:   2
+  85.174.16.250:   2
+ 222.186.190.71:   2
+  213.24.134.16:   1
+  138.255.29.80:   1
+================================================================================
+
+TOP USERNAMES
+--------------------------------------------------------------------------------
+          admin:  21
+           root:  16
+           ubnt:  14
+           user:   1
+           test:   1
+          guest:   1
+================================================================================
+
+TOP PASSWORDS
+--------------------------------------------------------------------------------
+           ubnt:   8
+          admin:   8
+           root:   5
+          12345:   4
+           1234:   4
+            123:   3
+           1111:   3
+            111:   3
+             11:   3
+              1:   3
+================================================================================
+
+SSH Usernames and Passwords
+--------------------------------------------------------------------------------
+root: root
+admin: password
+ubnt: 1234
+admin: 1
+root: 11
+root: 123
+root: admin
+ubnt: 12345
+ubnt: 111
+admin: admin
+admin: 1234
+admin: admin
+admin: admin
+ubnt: admin
+admin: root
+admin: 123
+ubnt: 11
+ubnt: 1111
+ubnt: 123
+root: 1
+root: 1234
+root: root
+admin: 111
+ubnt: ubnt
+admin: admin
+ubnt: ubnt
+admin: 123456
+root: ubnt
+root: admin
+root: 123456
+root: root
+admin: ubnt
+admin: 12345
+admin: 1111
+ubnt: root
+root: 111
+root: 12345
+admin: 12345678
+ubnt: ubnt
+root: ubnt
+ubnt: ubnt
+admin: 11
+admin: admin
+ubnt: ubnt
+root: password
+admin: admin123
+admin: 1234
+test: test
+user: user
+guest: guest
+admin: 12345
+root: 1111
+ubnt: 1
+================================================================================

@@ -1,0 +1,91 @@
+Daily Attack Feed2015.11.01Zane WitherspoonTerrence GareauNexusGuardSSH BRUTEFORCERS
+--------------------------------------------------------------------------------
+   69.64.58.192:  22
+  185.61.136.43:  12
+  52.91.189.137:   6
+  187.84.84.250:   2
+ 115.209.60.227:   2
+ 103.243.107.56:   2
+   59.40.38.172:   1
+115.210.181.126:   1
+================================================================================
+
+TOP USERNAMES
+--------------------------------------------------------------------------------
+           root:  13
+          admin:   9
+           ubnt:   4
+           user:   2
+         ubuntu:   2
+            ts3:   2
+             pi:   2
+          guest:   2
+            ftp:   2
+       zhangyan:   1
+================================================================================
+
+TOP PASSWORDS
+--------------------------------------------------------------------------------
+          admin:   8
+           ubnt:   4
+           root:   4
+      raspberry:   3
+       password:   3
+          guest:   2
+          12345:   2
+  zhangyan7tian:   1
+           user:   1
+         ubuntu:   1
+================================================================================
+
+SSH Usernames and Passwords
+--------------------------------------------------------------------------------
+root: root
+ubnt: ubnt
+admin: admin
+admin: admin
+root: admin
+admin: admin123
+admin: 12345
+guest: guest
+root: root
+user: user
+administrator: administrator
+admin: default
+guest: guest
+sshd: sshd
+test: test
+anna: anna
+hdfs: hdfs
+admin: admin
+ftp: ftp
+ts3: ts3srv
+ubuntu: password
+ubnt: ubnt
+ftp: ftpuser
+root: password
+ubnt: ubnt
+root: password
+admin: 1234
+ts3: ts3
+user: raspberry
+root: admin
+dff: 3rddf
+zhangyan: zhangyan7tian
+ubnt: ubnt
+admin: admin
+pi: raspberry
+PlcmSpIp: PlcmSpIp
+root: admin
+pi: raspberry
+a: a
+root: root
+root: root
+admin: admin
+ubuntu: ubuntu
+root: openelec
+anonymous: anonymous
+root: qua8GLPogUMoy6
+root: 12345
+root: 123muie123
+================================================================================

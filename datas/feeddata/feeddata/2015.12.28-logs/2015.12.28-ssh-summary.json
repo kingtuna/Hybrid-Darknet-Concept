@@ -1,0 +1,53 @@
+{
+    "Username-Password Combinations": {
+        "csgoserver": "12345", 
+        "teamspeak3": "1234", 
+        "PlcmSpIp": "PlcmSpIp", 
+        "ftp-admin": "ftp-pass", 
+        "mumble": "mumble", 
+        "git": "letmein", 
+        "redmine": "123456", 
+        "ubnt": "ubnt", 
+        "cs-go": "12345", 
+        "teamspeak": "teamspeak", 
+        "ts3bot": "ts3bot", 
+        "hnftp_root": "hnftp_pass", 
+        "vmail": "123456", 
+        "csgo": "csgo123", 
+        "multicraft": "12345", 
+        ".php": "Dinamo79Buc", 
+        "root": "p07lj588", 
+        "steam": "password", 
+        "arma3server": "arma3server", 
+        "ftproot": "ftppass", 
+        "minecraft": "minecraftserver", 
+        "ts3": "12345"
+    }, 
+    "SSH BRUTEFORCERS": {
+        "25": "121.183.175.167", 
+        "2": "58.211.216.43", 
+        "3": "223.4.210.53", 
+        "1": "114.113.224.183", 
+        "111": "188.132.205.110"
+    }, 
+    "TOP USERNAMES": {
+        "4": "cs-go", 
+        "5": "csgo", 
+        "7": "redmine", 
+        "10": "vmail", 
+        "11": "steam", 
+        "13": "minecraft", 
+        "14": "git", 
+        "17": "ts3", 
+        "27": "root"
+    }, 
+    "TOP PASSWORDS": {
+        "2": "ubnt", 
+        "3": "teamspeak", 
+        "4": "password", 
+        "7": "1234", 
+        "8": "123", 
+        "9": "123456", 
+        "10": "12345"
+    }
+}

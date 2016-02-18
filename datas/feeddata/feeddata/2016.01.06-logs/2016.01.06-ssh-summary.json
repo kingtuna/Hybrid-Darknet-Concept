@@ -1,0 +1,38 @@
+{
+    "Username-Password Combinations": {
+        "pi": "raspberry", 
+        "Cisco": "Cisco", 
+        "admln": "kopet123", 
+        "admin": "password", 
+        "support": "support", 
+        "ubnt": "ubnt", 
+        "ololol": "ololol", 
+        "user": "user", 
+        "operator": "operator", 
+        "raspberry": "pi", 
+        "root": "eHQD91VXAvn6VY", 
+        "developer": "developer123"
+    }, 
+    "SSH BRUTEFORCERS": {
+        "1": "31.184.195.115", 
+        "2": "114.214.170.163", 
+        "4": "116.110.127.232", 
+        "8": "69.30.217.226", 
+        "28": "119.146.221.68", 
+        "1502": "113.105.224.111"
+    }, 
+    "TOP USERNAMES": {
+        "1568": "root", 
+        "1": "ololol", 
+        "2": "developer", 
+        "3": "pi", 
+        "6": "admin"
+    }, 
+    "TOP PASSWORDS": {
+        "8": "password", 
+        "3": "aoeduo", 
+        "4": "jiamima", 
+        "5": "idc!@", 
+        "6": "12345"
+    }
+}
