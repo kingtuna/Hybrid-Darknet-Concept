@@ -46,3 +46,4 @@ Change RABBIT-IP to the rabbitMQ internal IP
 You can define custom mappings for the indexes created by logstash.
 Run index-template.sh on the elasticsearch/logstash server to set a custom mapping for the data parsed by logstash in all future auto-created indexes that start with logstash-*
 
+
