@@ -259,7 +259,8 @@ mv GeoLiteCity.dat  /usr/share/GeoIP/GeoLiteCity.dat
 mv GeoLiteCityv6.dat /usr/share/GeoIP/GeoLiteCityv6.dat
 ln -s /usr/share/GeoIP/GeoLiteCity.dat /usr/share/GeoIP/GeoIPCity.dat
 ln -s /usr/share/GeoIP/GeoLiteCityv6.dat /usr/share/GeoIP/GeoIPCityv6.dat
-wget `curl https://www.bro.org/download/index.html | grep "gz" | grep "bro-" | grep -v aux | grep -v asc | cut -d'"' -f2`
+wget `curl https://www.bro.org/download/index.html | grep "gz" | grep "bro-" | grep -v beta | grep -v aux | grep -v asc | cut -d'"' -f2`
+rm -fr *-beta.tar.gz
 tar -xvzf bro-2.*.tar.gz
 cd bro-2.*
 ./configure --prefix=/nsm/bro
