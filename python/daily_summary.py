@@ -126,7 +126,7 @@ class DnsdbClient(object):
 ###method used for general term searches##
 def termSearch(field, order, searchSize, term):
     terms = es.search(
-        request_timeout=30,
+        request_timeout=45,
     index=indexName,
         body={
             'query': {
@@ -212,7 +212,7 @@ def portCount(term, ip, port):
 ###method used for ip term searches##
 def ipTermSearch(field, order, searchSize, ip, query):
     ipTerms = es.search(
-    request_timeout=30,
+    request_timeout=45,
         index=indexName,
         body={
             'size': 0,
@@ -260,7 +260,7 @@ def ipTermSearch(field, order, searchSize, ip, query):
 def portTermSearch(field, order, searchSize, ip, query, port):
     port = 'id.resp_p:' + str(port)
     ipTerms = es.search(
-        request_timeout=30,
+        request_timeout=45,
     index=indexName,
         body={
             'size': 0,
@@ -317,7 +317,7 @@ def portTermSearch(field, order, searchSize, ip, query, port):
 ###method used for sorts##
 def ipTermSort(field, order, searchSize, ip, query):
     ipTerms = es.search(
-        request_timeout=30,
+        request_timeout=45,
     index=indexName,
         body={
             'query': {
@@ -364,7 +364,7 @@ def ipTermSort(field, order, searchSize, ip, query):
 def portTermSort(field, order, searchSize, ip, query, port):
     port = 'id.resp_p:' + str(port)
     portTerms = es.search(
-        request_timeout=30,
+        request_timeout=45,
     index=indexName,
         body={
             'query': {
@@ -1015,7 +1015,7 @@ start = time.time()
 
 # defining important variables
 ## IP Address
-es = Elasticsearch(_ESSERVERS, timeout=10)
+es = Elasticsearch(_ESSERVERS, timeout=20)
 date = datetime.datetime.strftime(
     #TG set back to 1
     datetime.datetime.now() - datetime.timedelta(1), '%Y.%m.%d')
