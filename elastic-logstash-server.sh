@@ -31,21 +31,30 @@ git clone https://github.com/elasticsearch/kibana.git
 
 echo "
 input {
-rabbitmq {
-   user => "USERNAME"
-   password => "PASSWORD"
-   exchange => "amq.direct"
-   vhost => "/amp"
-   host => "RABBITMQ-IP"
-   durable => false
-   exclusive => false
-   type => "logstash-indexer-input"
+        rabbitmq {
+                user => "user"
+                threads => "4"
+                password => "password"
+                exchange => "amq.direct"
+                queue => "logstash-queue"
+                exclusive => false
+                vhost => "/amp"
+                host => "ipaddress"
+                type => "logstash-indexer-input"
         }
 }
-
-output {
-  elasticsearch_http {
-        host => "localhost"
-  }
+filter{
+        mutate{
+                rename => {"[geoip][coordinates]" => "[geoip][location]"}
+        }
 }
-" > '/Users/zane/Desktop/testing.txt'
+output {
+        elasticsearch {
+                host => ["10.240.0.4","10.240.0.6","10.240.0.5","10.240.0.3"]
+                sniffing => true
+                cluster => "elastichoney-cluster"
+                node_name => "the-qtip"
+                workers => "4"
+        }
+}
+" > '/etc/logstash/brotastic.conf'
