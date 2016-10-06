@@ -10,7 +10,7 @@ GEOloc directoty
 feeds directory
 """
 
-scanCount = 4
+scanCount = 10
 _ESSERVERS = ['0.0.0.0', '0.0.0.0']
 _FEEDPATH = '/root/feeds/'
 _GEOLOCDIR = "/opt/local/share/GeoIP/GeoLiteASNum.dat"
