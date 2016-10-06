@@ -1,0 +1,3 @@
+
+10 0 * * *  /usr/bin/geoipupdate
+0 1 * * * /root/python/daily_feed.sh
